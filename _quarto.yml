@@ -1,0 +1,94 @@
+project:
+  type: website
+  output-dir: _site
+  execute-dir: project
+  render:
+    - "**/*.qmd"
+    - "**/*.md"
+    - "**/*.rmd"
+  resources:
+    - "files/*.csv"
+    - "files/*.json"
+    - "bizard-skill.zip"
+
+execute:
+  freeze: auto  # never re-render during project render
+
+website:
+  favicon: images/favicon.ico
+  page-navigation: true
+  title: "A Biomedical Visualization Atlas"
+  site-url: "https://openbiox.github.io/Bizard/"
+  repo-url: https://github.com/openbiox/Bizard
+  repo-actions:
+    - source
+    - issue
+
+  page-footer:
+    left: "&copy; CC-By-NC, Bizard Collaboration Group, Luo Lab, and Wang Lab, 2024-2025. All rights reserved."
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    center: |
+      <a href='https://clustrmaps.com/site/1c4xe'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=tt&d=VK6_Uhjas4vA0CDps3EFeB0Fotb8hU50SYT4Fcq5nUI&co=91c5eb&ct=000000'/></a>
+
+  sidebar:
+    logo: "images/Bizard_logo.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/openbiox/Bizard
+        text: "Bizard GitHub website"
+      - icon: twitter
+        href: https://x.com/PengL_Robin
+        text: "Peng Luo (Robin)"
+
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - text: "<i class='fa-solid fa-house'></i> Welcome"
+        href: index.qmd
+      - text: "<i class='fa-solid fa-signs-post'></i> Tutorial"
+        href: Tutorial.qmd
+      - section: "<i class='fa-solid fa-atom'></i> 𝐁𝐀𝐒𝐈𝐂𝐒"
+      - section: "<i class='fa-solid fa-chart-simple'></i> Distribution"
+        contents:
+          - text: "Density Plot"
+            href: Distribution/Density.qmd
+          - text: "Ridgeline Plot"
+            href: Distribution/Ridgeline.qmd
+      - section: "<i class='fa-solid fa-chart-pie'></i> Composition"
+        contents:
+          - text: "Donut Chart"
+            href: Composition/Donut.qmd
+
+
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
+    css: styles.css
+    include-in-header:
+      - text: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">'
+    code-copy: true
+    code-overflow: wrap
+    highlight-style: github
+    toc: true
+    date-modified: last-modified
+    date-format: iso
+    quarto-required: ">=1.7.33" # prelude.R uses `QUARTO_DOCUMENT_PATH` environment variable
+
+comments:
+  giscus:
+    repo: "openbiox/Bizard"
+    repo-id: "R_kgDONWVY7Q"
+    category: "Announcements"
+    category-id: "DIC_kwDONWVY7c4ClcJT"
+    mapping: "pathname"
+    reactions-enabled: true
+    input-position: "top"
+    theme: "preferred_color_scheme"
+    loading: "lazy"
+
+lang: zh
