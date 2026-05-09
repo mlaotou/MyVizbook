@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="[编辑] 黄可昕;">
+<meta name="author" content="[贡献] 王诗翔, 罗鹏, 杨泓, 李柯馨, 石盈, 郑虎.">
+
+<title>山脊线图 – A Biomedical Visualization Atlas</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../Composition/Donut.html" rel="next">
+<link href="../Distribution/Density.html" rel="prev">
+<link href="../images/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-7948e950077e5deab4102bde162b237b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Distribution/Density.html"><i class="fa-solid fa-chart-simple"></i> Distribution</a></li><li class="breadcrumb-item"><a href="../Distribution/Ridgeline.html">Ridgeline Plot</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/Bizard_logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../images/Bizard_logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+    <a href="https://github.com/openbiox/Bizard" title="Bizard GitHub website" class="quarto-navigation-tool px-1" aria-label="Bizard GitHub website"><i class="bi bi-github"></i></a>
+    <a href="https://x.com/PengL_Robin" title="Peng Luo (Robin)" class="quarto-navigation-tool px-1" aria-label="Peng Luo (Robin)"><i class="bi bi-twitter"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="搜索"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-house"></i> Welcome</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Tutorial.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><i class="fa-solid fa-signs-post"></i> Tutorial</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text"><i class="fa-solid fa-atom"></i> 𝐁𝐀𝐒𝐈𝐂𝐒</span></span>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text"><i class="fa-solid fa-chart-simple"></i> Distribution</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Distribution/Density.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Density Plot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Distribution/Ridgeline.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Ridgeline Plot</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text"><i class="fa-solid fa-chart-pie"></i> Composition</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Composition/Donut.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Donut Chart</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#示例" id="toc-示例" class="nav-link active" data-scroll-target="#示例">示例</a></li>
+  <li><a href="#环境配置" id="toc-环境配置" class="nav-link" data-scroll-target="#环境配置">环境配置</a></li>
+  <li><a href="#数据准备" id="toc-数据准备" class="nav-link" data-scroll-target="#数据准备">数据准备</a></li>
+  <li><a href="#可视化" id="toc-可视化" class="nav-link" data-scroll-target="#可视化">可视化</a>
+  <ul class="collapse">
+  <li><a href="#基础山脊线图" id="toc-基础山脊线图" class="nav-link" data-scroll-target="#基础山脊线图">1. 基础山脊线图</a></li>
+  <li><a href="#直方山脊线图" id="toc-直方山脊线图" class="nav-link" data-scroll-target="#直方山脊线图">2. 直方山脊线图</a></li>
+  <li><a href="#具有可变颜色的山脊线图" id="toc-具有可变颜色的山脊线图" class="nav-link" data-scroll-target="#具有可变颜色的山脊线图">3. 具有可变颜色的山脊线图</a></li>
+  </ul></li>
+  <li><a href="#应用场景" id="toc-应用场景" class="nav-link" data-scroll-target="#应用场景">应用场景</a>
+  <ul class="collapse">
+  <li><a href="#山脊图分组比较" id="toc-山脊图分组比较" class="nav-link" data-scroll-target="#山脊图分组比较">1. 山脊图分组比较</a></li>
+  <li><a href="#用山脊图展示基因集富集分析的结果" id="toc-用山脊图展示基因集富集分析的结果" class="nav-link" data-scroll-target="#用山脊图展示基因集富集分析的结果">2. 用山脊图展示基因集富集分析的结果</a></li>
+  </ul></li>
+  <li><a href="#参考文献" id="toc-参考文献" class="nav-link" data-scroll-target="#参考文献">参考文献</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/openbiox/Bizard/blob/main/Distribution/Ridgeline.qmd" class="toc-action"><i class="bi bi-github"></i>查看代码</a></li><li><a href="https://github.com/openbiox/Bizard/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Distribution/Density.html"><i class="fa-solid fa-chart-simple"></i> Distribution</a></li><li class="breadcrumb-item"><a href="../Distribution/Ridgeline.html">Ridgeline Plot</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">山脊线图</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">作者</div>
+    <div class="quarto-title-meta-contents">
+             <p><strong>[编辑]</strong> <a href="https://github.com/Kathywongkx">黄可昕</a>; </p>
+             <p><strong>[贡献]</strong> <a href="https://github.com/ShixiangWang">王诗翔</a>, <a href="https://github.com/DrRobinLuo">罗鹏</a>, <a href="https://github.com/MartinaHYang">杨泓</a>, <a href="https://github.com/Likexin0127">李柯馨</a>, <a href="https://github.com/">石盈</a>, <a href="https://github.com/ZhengTiger">郑虎</a>. </p>
+          </div>
+  </div>
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">修改于</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">2026-05-10</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>山脊线图，也称为喜悦图，可视化了多个数值变量在不同类别中的分布。此方法可用于比较密度分布，同时保留趋势和变化的整体视图。</p>
+<section id="示例" class="level2">
+<h2 class="anchored" data-anchor-id="示例">示例</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/Ridgeline_demo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Ridgeline DEMO"></p>
+</figure>
+</div>
+<p>一个山脊线图表示数值变量在多个组中的分布。在本例中，该图显示了不同品质类别的钻石价格分布。x 轴表示价格值，而密度曲线则表示每个价格在每个品质组中出现的频率。</p>
+</section>
+<section id="环境配置" class="level2">
+<h2 class="anchored" data-anchor-id="环境配置">环境配置</h2>
+<ul>
+<li><p>系统要求： 跨平台（Linux/MacOS/Windows）</p></li>
+<li><p>编程语言：R</p></li>
+<li><p>依赖包：<code>readr</code>, <code>ggplot2</code>, <code>ggridges</code>, <code>viridis</code>, <code>hrbrthemes</code></p></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 安装包</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">requireNamespace</span>(<span class="st">"readr"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)) {</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">install.packages</span>(<span class="st">"readr"</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">requireNamespace</span>(<span class="st">"ggplot2"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)) {</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">install.packages</span>(<span class="st">"ggplot2"</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">requireNamespace</span>(<span class="st">"ggridges"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)) {</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">install.packages</span>(<span class="st">"ggridges"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">requireNamespace</span>(<span class="st">"hrbrthemes"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)) {</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">install.packages</span>(<span class="st">"hrbrthemes"</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">requireNamespace</span>(<span class="st">"viridis"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)) {</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">install.packages</span>(<span class="st">"viridis"</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co"># 加载包</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)      <span class="co"># 用于读取 TSV 文件</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)      <span class="co"># 用于数据操作</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)    <span class="co"># 用于创建图</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggridges)   <span class="co"># 用于绘制山脊线图</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(hrbrthemes) <span class="co"># 用于增强的 ggplot2 主题</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(viridis)    <span class="co"># 用于颜色映射</span></span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>sessioninfo<span class="sc">::</span><span class="fu">session_info</span>(<span class="st">"attached"</span>)</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in system2("quarto", "-V", stdout = TRUE, env = paste0("TMPDIR=", :
+running command '"quarto"
+TMPDIR=C:/Users/97539/AppData/Local/Temp/RtmpigOGC0/file3bdc17134e3c -V' had
+status 1</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>─ Session info ───────────────────────────────────────────────────────────────
+ setting  value
+ version  R version 4.5.1 (2025-06-13 ucrt)
+ os       Windows 11 x64 (build 22631)
+ system   x86_64, mingw32
+ ui       RTerm
+ language (EN)
+ collate  Chinese (Simplified)_China.utf8
+ ctype    Chinese (Simplified)_China.utf8
+ tz       Asia/Shanghai
+ date     2026-05-10
+ pandoc   3.9.0.2 @ D:/Program/PANDOC~1.2/ (via rmarkdown)
+ quarto   NA @ D:\\Program Files\\R\\RStudio\\RESOUR~1\\app\\bin\\quarto\\bin\\quarto.exe
+
+─ Packages ───────────────────────────────────────────────────────────────────
+ package     * version date (UTC) lib source
+ dplyr       * 1.2.1   2026-04-03 [1] CRAN (R 4.5.1)
+ ggplot2     * 4.0.2   2026-02-03 [1] CRAN (R 4.5.2)
+ ggridges    * 0.5.7   2025-08-27 [1] CRAN (R 4.4.3)
+ hrbrthemes  * 0.8.7   2024-03-04 [1] CRAN (R 4.4.3)
+ readr       * 2.2.0   2026-02-19 [1] CRAN (R 4.5.3)
+ viridis     * 0.6.5   2024-01-29 [1] CRAN (R 4.4.2)
+ viridisLite * 0.4.3   2026-02-04 [1] CRAN (R 4.5.3)
+
+ [1] D:/Program Files/R/R-4.5.1/library
+ * ── Packages attached to the search path.
+
+──────────────────────────────────────────────────────────────────────────────</code></pre>
+</div>
+</div>
+</section>
+<section id="数据准备" class="level2">
+<h2 class="anchored" data-anchor-id="数据准备">数据准备</h2>
+<p>以下是使用内置 R 数据集（<code>iris</code>）和来自 <a href="https://xenabrowser.net/datapages/">UCSC Xena DATASETS</a> 的<code>Lung Cancer (Raponi 2006)</code>数据集的简短教程。</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 加载 iris 数据集</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="st">"iris"</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 加载 Lung Cancer (Raponi 2006) 临床数据集</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>TCGA_clinic <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_tsv</span>(<span class="st">"https://ucsc-public-main-xena-hub.s3.us-east-1.amazonaws.com/download/raponi2006_public%2Fraponi2006_public_clinicalMatrix.gz"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">T =</span> <span class="fu">as.factor</span>(T))</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(TCGA_clinic)</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 16
+  sampleID   Age Differentiation Gender Histology     M     N Race 
+  &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;           &lt;chr&gt;  &lt;chr&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;
+1 LS-1        75 mod_poor        M      SCC           0     0 w    
+2 LS-10       61 poor            F      SCC           0     0 w    
+3 LS-100      72 mod             M      SCC           0     0 w    
+4 LS-101      75 mod             M      SCC           0     1 w    
+5 LS-102      76 mod             F      SCC           0     0 w    
+6 LS-103      58 well_mod        M      SCC           0     1 w    
+# ℹ 8 more variables: Smoking_History_Packyears &lt;dbl&gt;, Stage &lt;chr&gt;,
+#   OS.time &lt;dbl&gt;, T &lt;fct&gt;, OS &lt;chr&gt;, `_INTEGRATION` &lt;chr&gt;, `_PATIENT` &lt;chr&gt;,
+#   `_GENOMIC_ID_raponi2006` &lt;chr&gt;</code></pre>
+</div>
+</div>
+</section>
+<section id="可视化" class="level2">
+<h2 class="anchored" data-anchor-id="可视化">可视化</h2>
+<section id="基础山脊线图" class="level3">
+<h3 class="anchored" data-anchor-id="基础山脊线图">1. 基础山脊线图</h3>
+<p><a href="#fig-BasicRidgeline" class="quarto-xref">图&nbsp;1</a> 描述了<code>Sepal.Length</code>变量在不同<code>Species</code>上的分布。</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 基础山脊线图</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>p1_1 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(iris, <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length, <span class="at">y =</span> Species, <span class="at">fill =</span> Species)) <span class="sc">+</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density_ridges</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ridges</span>(<span class="at">font_size =</span> <span class="dv">16</span>, <span class="at">grid =</span> <span class="cn">TRUE</span>) <span class="sc">+</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"right"</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>p1_1</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div id="fig-BasicRidgeline" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-BasicRidgeline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Ridgeline_files/figure-html/fig-BasicRidgeline-1.png" class="img-fluid figure-img" style="width:95.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-BasicRidgeline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;1: 基础山脊线图使用 <code>iris</code> 数据集
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><a href="#fig-BasicRidgeline2" class="quarto-xref">图&nbsp;2</a> 描述了<code>OS.time</code>变量在原发肿瘤情况以及存活状态的分布</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 基础山脊线图</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>p1_2 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(TCGA_clinic, <span class="fu">aes</span>(<span class="at">x =</span> OS.time, <span class="at">y =</span> T, <span class="at">fill =</span> T)) <span class="sc">+</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density_ridges</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>, <span class="at">scale =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ridges</span>(<span class="at">font_size =</span> <span class="dv">16</span>, <span class="at">grid =</span> <span class="cn">TRUE</span>) <span class="sc">+</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"right"</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>p1_2</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div id="fig-BasicRidgeline2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-BasicRidgeline2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Ridgeline_files/figure-html/fig-BasicRidgeline2-1.png" class="img-fluid figure-img" style="width:95.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-BasicRidgeline2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;2: 基础山脊线图使用 <code>Lung Cancer (Raponi 2006)</code> 数据集
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+提示
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>关键函数: <code>geom_density_ridges()</code> / <code>theme_ridges()</code></strong></p>
+<p><strong><code>geom_density_ridges()</code></strong></p>
+<p><code>geom_density_ridges</code> 是一个非常灵活的函数，可用于创建多种样式的山脊线图。</p>
+<p>以下是 <code>geom_density_ridges</code> 的一些常用参数和选项：</p>
+<ul>
+<li><p><strong><code>alpha</code></strong>: <code>geom_density_ridges</code></p></li>
+<li><p><strong><code>colour</code></strong>: 设置线条颜色。</p></li>
+<li><p><strong><code>fill</code></strong>: 根据分类变量填充颜色。</p></li>
+<li><p><strong><code>scale</code></strong>: 控制脊线之间的重叠程度。</p></li>
+</ul>
+<p><strong><code>theme_ridges()</code></strong></p>
+<p><code>theme_ridges</code> 是 ggridges 包提供的主题函数，专门用于美化脊图。</p>
+<p>该函数的参数包括：</p>
+<ul>
+<li><p>**<code>font_size**</code>: 整体字体大小，默认为 14。</p></li>
+<li><p><strong><code>line_size</code></strong>: 默认线条大小。</p></li>
+<li><p><strong><code>grid</code></strong>: 如果设置为TRUE（默认值），则会绘制背景网格；如果设置为FALSE，则背景保持空白。</p></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="直方山脊线图" class="level3">
+<h3 class="anchored" data-anchor-id="直方山脊线图">2. 直方山脊线图</h3>
+<p>直方图山脊图更适合于展示具体的数据分布和计数，而传统山脊图更适合于展示和比较不同类别的分布形状可以用不同的方式来表示密度。例如，使用<code>stat="binline"</code>可以使每个分布呈现出类似直方图的形状。</p>
+<p><a href="#fig-ChangingShapes" class="quarto-xref">图&nbsp;3</a> 描述了<code>Sepal.Length</code>变量在不同<code>Species</code>上的分布</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>p2_1 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(iris, <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length, <span class="at">y =</span> Species, <span class="at">fill =</span> Species)) <span class="sc">+</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density_ridges</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>, <span class="at">stat =</span> <span class="st">"binline"</span>, <span class="at">bins =</span> <span class="dv">10</span>) <span class="sc">+</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ridges</span>(<span class="at">font_size =</span> <span class="dv">16</span>, <span class="at">grid =</span> <span class="cn">TRUE</span>) <span class="sc">+</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>p2_1</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div id="fig-ChangingShapes" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ChangingShapes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Ridgeline_files/figure-html/fig-ChangingShapes-1.png" class="img-fluid figure-img" style="width:95.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ChangingShapes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;3: 直方山脊线图使用 <code>iris</code> 数据集
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><a href="#fig-ChangingShapes2" class="quarto-xref">图&nbsp;4</a> 描述了OS.time变量在原发肿瘤情况以及存活状态的分布。</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>p2_2 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(TCGA_clinic, <span class="fu">aes</span>(<span class="at">x =</span> OS.time, <span class="at">y =</span> T, <span class="at">fill =</span> T)) <span class="sc">+</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density_ridges</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>, <span class="at">stat =</span> <span class="st">"binline"</span>, <span class="at">bins =</span> <span class="dv">10</span>) <span class="sc">+</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ridges</span>(<span class="at">font_size =</span> <span class="dv">16</span>, <span class="at">grid =</span> <span class="cn">TRUE</span>) <span class="sc">+</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>p2_2</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div id="fig-ChangingShapes2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ChangingShapes2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Ridgeline_files/figure-html/fig-ChangingShapes2-1.png" class="img-fluid figure-img" style="width:95.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ChangingShapes2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;4: 直方山脊线图使用 <code>Lung Cancer (Raponi 2006)</code> 数据集
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="具有可变颜色的山脊线图" class="level3">
+<h3 class="anchored" data-anchor-id="具有可变颜色的山脊线图">3. 具有可变颜色的山脊线图</h3>
+<p>可以设置颜色取决于数字变量而不是分类变量。在实际可视化应用中便于更加直观观测到数据的大小变化。</p>
+<p><a href="#fig-ChangingColors" class="quarto-xref">图&nbsp;5</a> 描述了<code>Sepal.Length</code>变量在不同<code>Species</code>上的分布</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>p3_1 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(iris, <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length, <span class="at">y =</span> Species, <span class="at">fill =</span> ..x..)) <span class="sc">+</span>  <span class="co"># 创建山脊图</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density_ridges_gradient</span>(<span class="at">scale =</span> <span class="dv">3</span>, <span class="at">rel_min_height =</span> <span class="fl">0.01</span>) <span class="sc">+</span>  <span class="co"># 调整参数</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_viridis</span>(<span class="at">name =</span> <span class="st">"Sepal.Length"</span>, <span class="at">option =</span> <span class="st">"C"</span>) <span class="sc">+</span>  <span class="co"># 调整颜色映射</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">'Sepal.Length in iris'</span>) <span class="sc">+</span> </span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>() <span class="sc">+</span>   <span class="co"># 设置图像主题</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>,  </span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>        <span class="at">panel.spacing =</span> <span class="fu">unit</span>(<span class="fl">0.1</span>, <span class="st">"lines"</span>),</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>        <span class="at">strip.text.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>))</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>p3_1</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div id="fig-ChangingColors" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ChangingColors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Ridgeline_files/figure-html/fig-ChangingColors-1.png" class="img-fluid figure-img" style="width:95.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ChangingColors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;5: 使用<code>iris</code>数据集绘制可变颜色的山脊线图
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><a href="#fig-ChangingColors2" class="quarto-xref">图&nbsp;6</a> 描述了OS.time变量在原发肿瘤情况以及存活状态的分布。</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>p3_2 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(TCGA_clinic, <span class="fu">aes</span>(<span class="at">x =</span> OS.time, <span class="at">y =</span> T, <span class="at">fill =</span> ..x..)) <span class="sc">+</span>  <span class="co"># 创建山脊图</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density_ridges_gradient</span>(<span class="at">scale =</span> <span class="dv">1</span>, <span class="at">rel_min_height =</span> <span class="fl">0.01</span>) <span class="sc">+</span>  <span class="co"># 调整参数</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_viridis</span>(<span class="at">name =</span> <span class="st">"OS.time"</span>, <span class="at">option =</span> <span class="st">"C"</span>) <span class="sc">+</span>  <span class="co"># 调整颜色映射</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">'Distribution of OS.time in different tumor staging'</span>) <span class="sc">+</span> </span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_ipsum</span>() <span class="sc">+</span>   <span class="co"># 设置图像主题</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>, <span class="at">panel.spacing =</span> <span class="fu">unit</span>(<span class="fl">0.1</span>, <span class="st">"lines"</span>),</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>        <span class="at">strip.text.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>))</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>p3_2</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div id="fig-ChangingColors2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ChangingColors2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Ridgeline_files/figure-html/fig-ChangingColors2-1.png" class="img-fluid figure-img" style="width:95.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ChangingColors2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;6: 使用<code>Lung Cancer (Raponi 2006)</code>数据集绘制可变颜色的脊线图
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+提示
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>关键函数: <code>scale_fill_viridis()</code> / <code>theme_ipsum()</code></strong></p>
+<p><strong><code>scale_fill_viridis()</code></strong></p>
+<p><code>scale_fill_viridis()</code>是<code>viridis</code>包中的一个函数，它为连续数据提供了色彩映射方案。</p>
+<p>常用参数包括：</p>
+<ul>
+<li><p><strong><code>begin</code> and <code>end</code></strong>: 控制颜色映射的起始和结束位置，值在 0 到 1 之间。</p></li>
+<li><p><strong><code>direction</code></strong>: 控制颜色的方向。</p>
+<ul>
+<li>1 表示从低值到高值颜色逐渐变深。</li>
+<li>-1 则相反。</li>
+</ul></li>
+<li><p><strong><code>option</code></strong>: 选择<code>viridis</code>包中预设的颜色方案，如 “magma”、“inferno”、“plasma” 等。</p></li>
+<li><p><strong><code>aesthetics</code></strong>: 指定是用于填充 (<code>fill</code>) 还是用于轮廓 (<code>colour</code>)。</p></li>
+</ul>
+<p><strong><code>theme_ipsum()</code></strong></p>
+<p><code>theme_ipsum()</code>是<code>hrbrthemes</code>包中的一个函数，它提供了一个预定义的 ggplot2 主题</p>
+<p>以下是一些 <code>hrbrthemes</code> 包中的主题：</p>
+<ul>
+<li><p><strong><code>theme_ipsum()</code></strong>: 这是<code>hrbrthemes</code>包的核心主题，使用 Arial Narrow 字体，强调了良好的排版和易读性。</p></li>
+<li><p><strong><code>theme_ft_rc()</code></strong>: 这个主题提供了一种精确且纯净的外观，同样注重排版。</p></li>
+<li><p><strong><code>theme_ipsum_rc()</code></strong>: 这是<code>theme_ipsum()</code>的变体，可能包含一些不同的排版或颜色选择。</p></li>
+<li><p><strong><code>theme_ipsum_tw()</code></strong>: 这个主题是为 Twitter 的品牌设计的，使用 Twitter 的颜色和字体风格。</p></li>
+<li><p><strong><code>theme_ipsum_ps()</code></strong>: 这个主题可能包含了为印刷设计优化的特定排版和颜色。</p></li>
+<li><p><strong><code>theme_modern_rc()</code></strong>: 这个主题提供了一个现代且简洁的外观，适合当代的数据可视化需求。</p></li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="应用场景" class="level2">
+<h2 class="anchored" data-anchor-id="应用场景">应用场景</h2>
+<section id="山脊图分组比较" class="level3">
+<h3 class="anchored" data-anchor-id="山脊图分组比较">1. 山脊图分组比较</h3>
+<div id="fig-RidgelineApplications1" class="quarto-float quarto-figure quarto-figure-center anchored" alt="RidgelineApp1" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-RidgelineApplications1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../images/Ridgeline_app1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="RidgelineApp1">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-RidgelineApplications1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;7: 山脊图分组比较应用
+</figcaption>
+</figure>
+</div>
+<p>山脊图被用来展示不同实验条件下的细胞因子表达情况，以及不同细胞群的基因表达分布。 [1]</p>
+</section>
+<section id="用山脊图展示基因集富集分析的结果" class="level3">
+<h3 class="anchored" data-anchor-id="用山脊图展示基因集富集分析的结果">2. 用山脊图展示基因集富集分析的结果</h3>
+<div id="fig-RidgelineApplications2" class="quarto-float quarto-figure quarto-figure-center anchored" alt="RidgelineApp2" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-RidgelineApplications2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../images/Ridgeline_app2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="RidgelineApp2">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-RidgelineApplications2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+图&nbsp;8: 用山脊图展示基因集富集分析的结果应用
+</figcaption>
+</figure>
+</div>
+<p>使用山脊图来展示基因集富集分析的结果，揭示了与Moyamoya疾病相关的生物标志物，这是其中一幅山脊图。 [2]</p>
+</section>
+</section>
+<section id="参考文献" class="level2">
+<h2 class="anchored" data-anchor-id="参考文献">参考文献</h2>
+<ol type="1">
+<li>Krämer B, Nalin AP, Ma F, Eickhoff S, Lutz P, Leonardelli S, Goeser F, Finnemann C, Hack G, Raabe J, ToVinh M, Ahmad S, Hoffmeister C, Kaiser KM, Manekeller S, Branchi V, Bald T, Hölzel M, Hüneburg R, Nischalke HD, Semaan A, Langhans B, Kaczmarek DJ, Benner B, Lordo MR, Kowalski J, Gerhardt A, Timm J, Toma M, Mohr R, Türler A, Charpentier A, van Bremen T, Feldmann G, Sattler A, Kotsch K, Abdallah AT, Strassburg CP, Spengler U, Carson WE 3rd, Mundy-Bosse BL, Pellegrini M, O’Sullivan TE, Freud AG, Nattermann J. Single-cell RNA sequencing identifies a population of human liver-type ILC1s. Cell Rep.&nbsp;2023 Jan 31;42(1):111937. doi: 10.1016/j.celrep.2022.111937. Epub 2023 Jan 1. PMID: 36640314; PMCID: PMC9950534.</li>
+<li>Xu Y, Chen B, Guo Z, Chen C, Wang C, Zhou H, Zhang C, Feng Y. Identification of diagnostic markers for moyamoya disease by combining bulk RNA-sequencing analysis and machine learning. Sci Rep.&nbsp;2024 Mar 11;14(1):5931. doi: 10.1038/s41598-024-56367-w. PMID: 38467737; PMCID: PMC10928210.</li>
+<li>Wickham, H. (2009). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. ISBN 978-0-387-98140-6 (Print) 978-0-387-98141-3 (E-Book). [DOI: 10.1007/978-0-387-98141-3] (https://doi.org/10.1007/978-0-387-98141-3)</li>
+<li>Scherer, C. (2019). ggridges: Ridgeline plots in ‘ggplot2’. Journal of Statistical Software, 88(1), 1-19. [DOI: 10.18637/jss.v088.i01] (https://doi.org/10.18637/jss.v088.i01)</li>
+<li>Garnier, S., Team, R. C., &amp; Team, R. S. (2018). viridis: Default color maps for R. R package version 0.5.1. <a href="https://cran.r-project.org/package=viridis">https://CRAN.R-project.org/package=viridis</a></li>
+<li>Fournet, H. (2016). hrbrthemes: Additional themes, scales, and geoms for ‘ggplot2’. R package version 1.7.6. <a href="https://cran.r-project.org/package=hrbrthemes">https://CRAN.R-project.org/package=hrbrthemes</a></li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/openbiox\.github\.io\/Bizard\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<input type="hidden" id="giscus-base-theme" value="preferred_color_scheme">
+<input type="hidden" id="giscus-alt-theme" value="preferred_color_scheme">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "openbiox/Bizard";
+    script.dataset.repoId = "R_kgDONWVY7Q";
+    script.dataset.category = "Announcements";
+    script.dataset.categoryId = "DIC_kwDONWVY7c4ClcJT";
+    script.dataset.mapping = "pathname";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../Distribution/Density.html" class="pagination-link" aria-label="Density Plot">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Density Plot</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../Composition/Donut.html" class="pagination-link" aria-label="Donut Chart">
+        <span class="nav-page-text">Donut Chart</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© CC-By-NC, Bizard Collaboration Group, Luo Lab, and Wang Lab, 2024-2025. All rights reserved.</p>
+</div>   
+    <div class="nav-footer-center">
+<p><a href="https://clustrmaps.com/site/1c4xe" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&amp;w=a&amp;t=tt&amp;d=VK6_Uhjas4vA0CDps3EFeB0Fotb8hU50SYT4Fcq5nUI&amp;co=91c5eb&amp;ct=000000"></a></p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/openbiox/Bizard/blob/main/Distribution/Ridgeline.qmd" class="toc-action"><i class="bi bi-github"></i>查看代码</a></li><li><a href="https://github.com/openbiox/Bizard/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

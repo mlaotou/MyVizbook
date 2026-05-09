@@ -1,0 +1,339 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bizard",
+    "section": "",
+    "text": "在生物医学研究中，数据可视化是解读复杂数据集、推动科学发现和指导临床决策的关键工具。R语言凭借其强大的统计功能和丰富的扩展包生态系统，已成为创建高质量可视化的基石。然而，R语言绘图工具包数量庞大且持续更新，研究人员常面临方法选择与图表定制的双重挑战——他们需要根据特定研究需求筛选合适方案并进行个性化调整。这一过程不仅需要高超的编程技能、跨学科协作能力，还需投入大量时间，这些因素都可能延缓研究进度，甚至影响实验结果的准确性。\n为应对这些挑战，我们开发了 Bizard。这个社区驱动的综合性平台整合了精选可视化代码库、进阶教程和协作论坛，通过优化资源获取路径与促进知识共享，致力于提升生物医学研究者的数据分析能力，加速科研成果向临床实践的转化。",
+    "crumbs": [
+      "<i class='fa-solid fa-house'></i> Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Bizard",
+    "section": "",
+    "text": "在生物医学研究中，数据可视化是解读复杂数据集、推动科学发现和指导临床决策的关键工具。R语言凭借其强大的统计功能和丰富的扩展包生态系统，已成为创建高质量可视化的基石。然而，R语言绘图工具包数量庞大且持续更新，研究人员常面临方法选择与图表定制的双重挑战——他们需要根据特定研究需求筛选合适方案并进行个性化调整。这一过程不仅需要高超的编程技能、跨学科协作能力，还需投入大量时间，这些因素都可能延缓研究进度，甚至影响实验结果的准确性。\n为应对这些挑战，我们开发了 Bizard。这个社区驱动的综合性平台整合了精选可视化代码库、进阶教程和协作论坛，通过优化资源获取路径与促进知识共享，致力于提升生物医学研究者的数据分析能力，加速科研成果向临床实践的转化。",
+    "crumbs": [
+      "<i class='fa-solid fa-house'></i> Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#什么是-bizard",
+    "href": "index.html#什么是-bizard",
+    "title": "Bizard",
+    "section": "什么是 Bizard?",
+    "text": "什么是 Bizard?\nBizard 汇聚了强大的可视化工具、精选代码和协作功能，助力研究人员高效完成数据分析，并以清晰有力的方式呈现研究成果。\n\n全面可视化资源库: 整合来自多方的可视化代码，既有经典图表库（graphgallery）资源，也有全球专家的创新贡献，为生物医学研究提供前沿工具集。\n多样化图表支持: 提供涵盖变量分布、相关性分析、排序图表及交互式可视化等场景的R代码实现，满足多元数据分析需求。\n真实场景应用: 基于R原生数据集与真实生物医学数据案例，让可视化技术的学习和应用更贴近实际研究场景，加速临床转化进程。\n生物医学数据适配: 包含预处理算法、带注释的绘图代码和专用方法，适配生物医学数据的复杂性，即使编程基础有限也能实现高级可视化。\n统计分析一体化: 将统计分析与可视化模块无缝结合，确保结果兼具严谨性与表现力，提升研究可信度，推动循证医学发展。\n开放协作生态: 积极吸纳生物医学领域专家的贡献，通过集体智慧优化功能，应对数据可视化领域的动态挑战。\n多平台便捷访问: 通过开源GitHub仓库、互动论坛及微信公众号教程等多渠道提供资源，促进知识共享与协作创新。\n推动研究卓越: 赋能研究人员提升可视化技能，完善方法学标准，助力精准医疗与个性化治疗发展。\n未来愿景: 致力于拓展国际协作，持续提供创新解决方案，以应对生物医学数据可视化与分析日益增长的复杂性。\n\n\n\n\n\n\n\n注记\n\n\n\n如果您觉得这有用或有改进的建议，请在任何页面底部的GitHub讨论中留下您的评论，让我们知道。",
+    "crumbs": [
+      "<i class='fa-solid fa-house'></i> Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#参与贡献",
+    "href": "index.html#参与贡献",
+    "title": "Bizard",
+    "section": "🤝 参与贡献",
+    "text": "🤝 参与贡献\n我们欢迎社区的各种贡献！无论是添加新的可视化教程、改进现有代码，还是修复文档，您的参与都能让 Bizard 变得更好。\n有效的贡献将记录在我们的贡献统计表格中。\n图文贡献请参考我们的模板： - 中文模板: Template/visualization_guidance_CH.qmd - 英文模板: Template/visualization_guidance_EN.qmd\n您也可以阅读仓库中已有的教程源文件，了解文档结构和风格。",
+    "crumbs": [
+      "<i class='fa-solid fa-house'></i> Welcome"
+    ]
+  },
+  {
+    "objectID": "Tutorial.html",
+    "href": "Tutorial.html",
+    "title": "A Biomedical Visualization Atlas",
+    "section": "",
+    "text": "说明",
+    "crumbs": [
+      "<i class='fa-solid fa-signs-post'></i> Tutorial"
+    ]
+  },
+  {
+    "objectID": "Distribution/Ridgeline.html",
+    "href": "Distribution/Ridgeline.html",
+    "title": "山脊线图",
+    "section": "",
+    "text": "山脊线图，也称为喜悦图，可视化了多个数值变量在不同类别中的分布。此方法可用于比较密度分布，同时保留趋势和变化的整体视图。",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Ridgeline Plot"
+    ]
+  },
+  {
+    "objectID": "Distribution/Ridgeline.html#示例",
+    "href": "Distribution/Ridgeline.html#示例",
+    "title": "山脊线图",
+    "section": "示例",
+    "text": "示例\n\n\n\n\n\n一个山脊线图表示数值变量在多个组中的分布。在本例中，该图显示了不同品质类别的钻石价格分布。x 轴表示价格值，而密度曲线则表示每个价格在每个品质组中出现的频率。",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Ridgeline Plot"
+    ]
+  },
+  {
+    "objectID": "Distribution/Ridgeline.html#环境配置",
+    "href": "Distribution/Ridgeline.html#环境配置",
+    "title": "山脊线图",
+    "section": "环境配置",
+    "text": "环境配置\n\n系统要求： 跨平台（Linux/MacOS/Windows）\n编程语言：R\n依赖包：readr, ggplot2, ggridges, viridis, hrbrthemes\n\n\n# 安装包\nif (!requireNamespace(\"readr\", quietly = TRUE)) {\n  install.packages(\"readr\")\n}\nif (!requireNamespace(\"ggplot2\", quietly = TRUE)) {\n  install.packages(\"ggplot2\")\n}\nif (!requireNamespace(\"ggridges\", quietly = TRUE)) {\n  install.packages(\"ggridges\")\n}\nif (!requireNamespace(\"hrbrthemes\", quietly = TRUE)) {\n  install.packages(\"hrbrthemes\")\n}\nif (!requireNamespace(\"viridis\", quietly = TRUE)) {\n  install.packages(\"viridis\")\n}\n\n# 加载包\nlibrary(readr)      # 用于读取 TSV 文件\nlibrary(dplyr)      # 用于数据操作\nlibrary(ggplot2)    # 用于创建图\nlibrary(ggridges)   # 用于绘制山脊线图\nlibrary(hrbrthemes) # 用于增强的 ggplot2 主题\nlibrary(viridis)    # 用于颜色映射\n\n\nsessioninfo::session_info(\"attached\")\n\nWarning in system2(\"quarto\", \"-V\", stdout = TRUE, env = paste0(\"TMPDIR=\", :\nrunning command '\"quarto\"\nTMPDIR=C:/Users/97539/AppData/Local/Temp/RtmpigOGC0/file3bdc17134e3c -V' had\nstatus 1\n\n\n─ Session info ───────────────────────────────────────────────────────────────\n setting  value\n version  R version 4.5.1 (2025-06-13 ucrt)\n os       Windows 11 x64 (build 22631)\n system   x86_64, mingw32\n ui       RTerm\n language (EN)\n collate  Chinese (Simplified)_China.utf8\n ctype    Chinese (Simplified)_China.utf8\n tz       Asia/Shanghai\n date     2026-05-10\n pandoc   3.9.0.2 @ D:/Program/PANDOC~1.2/ (via rmarkdown)\n quarto   NA @ D:\\\\Program Files\\\\R\\\\RStudio\\\\RESOUR~1\\\\app\\\\bin\\\\quarto\\\\bin\\\\quarto.exe\n\n─ Packages ───────────────────────────────────────────────────────────────────\n package     * version date (UTC) lib source\n dplyr       * 1.2.1   2026-04-03 [1] CRAN (R 4.5.1)\n ggplot2     * 4.0.2   2026-02-03 [1] CRAN (R 4.5.2)\n ggridges    * 0.5.7   2025-08-27 [1] CRAN (R 4.4.3)\n hrbrthemes  * 0.8.7   2024-03-04 [1] CRAN (R 4.4.3)\n readr       * 2.2.0   2026-02-19 [1] CRAN (R 4.5.3)\n viridis     * 0.6.5   2024-01-29 [1] CRAN (R 4.4.2)\n viridisLite * 0.4.3   2026-02-04 [1] CRAN (R 4.5.3)\n\n [1] D:/Program Files/R/R-4.5.1/library\n * ── Packages attached to the search path.\n\n──────────────────────────────────────────────────────────────────────────────",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Ridgeline Plot"
+    ]
+  },
+  {
+    "objectID": "Distribution/Ridgeline.html#数据准备",
+    "href": "Distribution/Ridgeline.html#数据准备",
+    "title": "山脊线图",
+    "section": "数据准备",
+    "text": "数据准备\n以下是使用内置 R 数据集（iris）和来自 UCSC Xena DATASETS 的Lung Cancer (Raponi 2006)数据集的简短教程。\n\n# 加载 iris 数据集\ndata(\"iris\")\n\n# 加载 Lung Cancer (Raponi 2006) 临床数据集\nTCGA_clinic &lt;- readr::read_tsv(\"https://ucsc-public-main-xena-hub.s3.us-east-1.amazonaws.com/download/raponi2006_public%2Fraponi2006_public_clinicalMatrix.gz\") %&gt;%\n  mutate(T = as.factor(T))\nhead(TCGA_clinic)\n\n# A tibble: 6 × 16\n  sampleID   Age Differentiation Gender Histology     M     N Race \n  &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;           &lt;chr&gt;  &lt;chr&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;\n1 LS-1        75 mod_poor        M      SCC           0     0 w    \n2 LS-10       61 poor            F      SCC           0     0 w    \n3 LS-100      72 mod             M      SCC           0     0 w    \n4 LS-101      75 mod             M      SCC           0     1 w    \n5 LS-102      76 mod             F      SCC           0     0 w    \n6 LS-103      58 well_mod        M      SCC           0     1 w    \n# ℹ 8 more variables: Smoking_History_Packyears &lt;dbl&gt;, Stage &lt;chr&gt;,\n#   OS.time &lt;dbl&gt;, T &lt;fct&gt;, OS &lt;chr&gt;, `_INTEGRATION` &lt;chr&gt;, `_PATIENT` &lt;chr&gt;,\n#   `_GENOMIC_ID_raponi2006` &lt;chr&gt;",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Ridgeline Plot"
+    ]
+  },
+  {
+    "objectID": "Distribution/Ridgeline.html#可视化",
+    "href": "Distribution/Ridgeline.html#可视化",
+    "title": "山脊线图",
+    "section": "可视化",
+    "text": "可视化\n\n1. 基础山脊线图\n图 1 描述了Sepal.Length变量在不同Species上的分布。\n\n# 基础山脊线图\np1_1 &lt;- ggplot(iris, aes(x = Sepal.Length, y = Species, fill = Species)) +\n  geom_density_ridges(alpha = 0.5) +\n  theme_ridges(font_size = 16, grid = TRUE) +\n  theme(legend.position = \"right\")\n\np1_1\n\n\n\n\n\n\n\n图 1: 基础山脊线图使用 iris 数据集\n\n\n\n\n\n图 2 描述了OS.time变量在原发肿瘤情况以及存活状态的分布\n\n# 基础山脊线图\np1_2 &lt;- ggplot(TCGA_clinic, aes(x = OS.time, y = T, fill = T)) +\n  geom_density_ridges(alpha = 0.5, scale = 2) +\n  theme_ridges(font_size = 16, grid = TRUE) +\n  theme(legend.position = \"right\")\n\np1_2\n\n\n\n\n\n\n\n图 2: 基础山脊线图使用 Lung Cancer (Raponi 2006) 数据集\n\n\n\n\n\n\n\n\n\n\n\n提示\n\n\n\n关键函数: geom_density_ridges() / theme_ridges()\ngeom_density_ridges()\ngeom_density_ridges 是一个非常灵活的函数，可用于创建多种样式的山脊线图。\n以下是 geom_density_ridges 的一些常用参数和选项：\n\nalpha: geom_density_ridges\ncolour: 设置线条颜色。\nfill: 根据分类变量填充颜色。\nscale: 控制脊线之间的重叠程度。\n\ntheme_ridges()\ntheme_ridges 是 ggridges 包提供的主题函数，专门用于美化脊图。\n该函数的参数包括：\n\n**font_size**: 整体字体大小，默认为 14。\nline_size: 默认线条大小。\ngrid: 如果设置为TRUE（默认值），则会绘制背景网格；如果设置为FALSE，则背景保持空白。\n\n\n\n\n\n2. 直方山脊线图\n直方图山脊图更适合于展示具体的数据分布和计数，而传统山脊图更适合于展示和比较不同类别的分布形状可以用不同的方式来表示密度。例如，使用stat=\"binline\"可以使每个分布呈现出类似直方图的形状。\n图 3 描述了Sepal.Length变量在不同Species上的分布\n\np2_1 &lt;- ggplot(iris, aes(x = Sepal.Length, y = Species, fill = Species)) +\n  geom_density_ridges(alpha = 0.5, stat = \"binline\", bins = 10) +\n  theme_ridges(font_size = 16, grid = TRUE) +\n  theme(legend.position = \"none\")\n\np2_1\n\n\n\n\n\n\n\n图 3: 直方山脊线图使用 iris 数据集\n\n\n\n\n\n图 4 描述了OS.time变量在原发肿瘤情况以及存活状态的分布。\n\np2_2 &lt;- ggplot(TCGA_clinic, aes(x = OS.time, y = T, fill = T)) +\n  geom_density_ridges(alpha = 0.5, stat = \"binline\", bins = 10) +\n  theme_ridges(font_size = 16, grid = TRUE) +\n  theme(legend.position = \"none\")\n\np2_2\n\n\n\n\n\n\n\n图 4: 直方山脊线图使用 Lung Cancer (Raponi 2006) 数据集\n\n\n\n\n\n\n\n3. 具有可变颜色的山脊线图\n可以设置颜色取决于数字变量而不是分类变量。在实际可视化应用中便于更加直观观测到数据的大小变化。\n图 5 描述了Sepal.Length变量在不同Species上的分布\n\np3_1 &lt;- ggplot(iris, aes(x = Sepal.Length, y = Species, fill = ..x..)) +  # 创建山脊图\n  geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01) +  # 调整参数\n  scale_fill_viridis(name = \"Sepal.Length\", option = \"C\") +  # 调整颜色映射\n  labs(title = 'Sepal.Length in iris') + \n  theme_ipsum() +   # 设置图像主题\n  theme(legend.position = \"bottom\",  \n        panel.spacing = unit(0.1, \"lines\"),\n        strip.text.x = element_text(size = 8))\n\np3_1\n\n\n\n\n\n\n\n图 5: 使用iris数据集绘制可变颜色的山脊线图\n\n\n\n\n\n图 6 描述了OS.time变量在原发肿瘤情况以及存活状态的分布。\n\np3_2 &lt;- ggplot(TCGA_clinic, aes(x = OS.time, y = T, fill = ..x..)) +  # 创建山脊图\n  geom_density_ridges_gradient(scale = 1, rel_min_height = 0.01) +  # 调整参数\n  scale_fill_viridis(name = \"OS.time\", option = \"C\") +  # 调整颜色映射\n  labs(title = 'Distribution of OS.time in different tumor staging') + \n  theme_ipsum() +   # 设置图像主题\n  theme(legend.position = \"bottom\", panel.spacing = unit(0.1, \"lines\"),\n        strip.text.x = element_text(size = 8))\n\np3_2\n\n\n\n\n\n\n\n图 6: 使用Lung Cancer (Raponi 2006)数据集绘制可变颜色的脊线图\n\n\n\n\n\n\n\n\n\n\n\n提示\n\n\n\n关键函数: scale_fill_viridis() / theme_ipsum()\nscale_fill_viridis()\nscale_fill_viridis()是viridis包中的一个函数，它为连续数据提供了色彩映射方案。\n常用参数包括：\n\nbegin and end: 控制颜色映射的起始和结束位置，值在 0 到 1 之间。\ndirection: 控制颜色的方向。\n\n1 表示从低值到高值颜色逐渐变深。\n-1 则相反。\n\noption: 选择viridis包中预设的颜色方案，如 “magma”、“inferno”、“plasma” 等。\naesthetics: 指定是用于填充 (fill) 还是用于轮廓 (colour)。\n\ntheme_ipsum()\ntheme_ipsum()是hrbrthemes包中的一个函数，它提供了一个预定义的 ggplot2 主题\n以下是一些 hrbrthemes 包中的主题：\n\ntheme_ipsum(): 这是hrbrthemes包的核心主题，使用 Arial Narrow 字体，强调了良好的排版和易读性。\ntheme_ft_rc(): 这个主题提供了一种精确且纯净的外观，同样注重排版。\ntheme_ipsum_rc(): 这是theme_ipsum()的变体，可能包含一些不同的排版或颜色选择。\ntheme_ipsum_tw(): 这个主题是为 Twitter 的品牌设计的，使用 Twitter 的颜色和字体风格。\ntheme_ipsum_ps(): 这个主题可能包含了为印刷设计优化的特定排版和颜色。\ntheme_modern_rc(): 这个主题提供了一个现代且简洁的外观，适合当代的数据可视化需求。",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Ridgeline Plot"
+    ]
+  },
+  {
+    "objectID": "Distribution/Ridgeline.html#应用场景",
+    "href": "Distribution/Ridgeline.html#应用场景",
+    "title": "山脊线图",
+    "section": "应用场景",
+    "text": "应用场景\n\n1. 山脊图分组比较\n\n\n\n\n\n\n图 7: 山脊图分组比较应用\n\n\n\n山脊图被用来展示不同实验条件下的细胞因子表达情况，以及不同细胞群的基因表达分布。 [1]\n\n\n2. 用山脊图展示基因集富集分析的结果\n\n\n\n\n\n\n图 8: 用山脊图展示基因集富集分析的结果应用\n\n\n\n使用山脊图来展示基因集富集分析的结果，揭示了与Moyamoya疾病相关的生物标志物，这是其中一幅山脊图。 [2]",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Ridgeline Plot"
+    ]
+  },
+  {
+    "objectID": "Distribution/Ridgeline.html#参考文献",
+    "href": "Distribution/Ridgeline.html#参考文献",
+    "title": "山脊线图",
+    "section": "参考文献",
+    "text": "参考文献\n\nKrämer B, Nalin AP, Ma F, Eickhoff S, Lutz P, Leonardelli S, Goeser F, Finnemann C, Hack G, Raabe J, ToVinh M, Ahmad S, Hoffmeister C, Kaiser KM, Manekeller S, Branchi V, Bald T, Hölzel M, Hüneburg R, Nischalke HD, Semaan A, Langhans B, Kaczmarek DJ, Benner B, Lordo MR, Kowalski J, Gerhardt A, Timm J, Toma M, Mohr R, Türler A, Charpentier A, van Bremen T, Feldmann G, Sattler A, Kotsch K, Abdallah AT, Strassburg CP, Spengler U, Carson WE 3rd, Mundy-Bosse BL, Pellegrini M, O’Sullivan TE, Freud AG, Nattermann J. Single-cell RNA sequencing identifies a population of human liver-type ILC1s. Cell Rep. 2023 Jan 31;42(1):111937. doi: 10.1016/j.celrep.2022.111937. Epub 2023 Jan 1. PMID: 36640314; PMCID: PMC9950534.\nXu Y, Chen B, Guo Z, Chen C, Wang C, Zhou H, Zhang C, Feng Y. Identification of diagnostic markers for moyamoya disease by combining bulk RNA-sequencing analysis and machine learning. Sci Rep. 2024 Mar 11;14(1):5931. doi: 10.1038/s41598-024-56367-w. PMID: 38467737; PMCID: PMC10928210.\nWickham, H. (2009). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. ISBN 978-0-387-98140-6 (Print) 978-0-387-98141-3 (E-Book). [DOI: 10.1007/978-0-387-98141-3] (https://doi.org/10.1007/978-0-387-98141-3)\nScherer, C. (2019). ggridges: Ridgeline plots in ‘ggplot2’. Journal of Statistical Software, 88(1), 1-19. [DOI: 10.18637/jss.v088.i01] (https://doi.org/10.18637/jss.v088.i01)\nGarnier, S., Team, R. C., & Team, R. S. (2018). viridis: Default color maps for R. R package version 0.5.1. https://CRAN.R-project.org/package=viridis\nFournet, H. (2016). hrbrthemes: Additional themes, scales, and geoms for ‘ggplot2’. R package version 1.7.6. https://CRAN.R-project.org/package=hrbrthemes",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Ridgeline Plot"
+    ]
+  },
+  {
+    "objectID": "Composition/Donut.html",
+    "href": "Composition/Donut.html",
+    "title": "环状图",
+    "section": "",
+    "text": "环状图是一个被分成若干扇区的圆环，每个扇区代表整体的一部分。它与饼图非常相似，可以在ggplot2和基础R中构建这种图形。",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-pie'></i> Composition",
+      "Donut Chart"
+    ]
+  },
+  {
+    "objectID": "Composition/Donut.html#示例",
+    "href": "Composition/Donut.html#示例",
+    "title": "环状图",
+    "section": "示例",
+    "text": "示例",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-pie'></i> Composition",
+      "Donut Chart"
+    ]
+  },
+  {
+    "objectID": "Composition/Donut.html#环境配置",
+    "href": "Composition/Donut.html#环境配置",
+    "title": "环状图",
+    "section": "环境配置",
+    "text": "环境配置\n\n系统要求： 跨平台（Linux/MacOS/Windows）\n编程语言：R\n依赖包：ggplot2\n\n\n# 安装包\nif (!requireNamespace(\"ggplot2\", quietly = TRUE)) {\n  install.packages(\"ggplot2\")\n}\n\n# 加载包\nlibrary(ggplot2)\n\n\nsessioninfo::session_info(\"attached\")\n\nWarning in system2(\"quarto\", \"-V\", stdout = TRUE, env = paste0(\"TMPDIR=\", :\nrunning command '\"quarto\"\nTMPDIR=C:/Users/97539/AppData/Local/Temp/RtmpsVpXdN/file67783ca9750d -V' had\nstatus 1\n\n\n─ Session info ───────────────────────────────────────────────────────────────\n setting  value\n version  R version 4.5.1 (2025-06-13 ucrt)\n os       Windows 11 x64 (build 22631)\n system   x86_64, mingw32\n ui       RTerm\n language (EN)\n collate  Chinese (Simplified)_China.utf8\n ctype    Chinese (Simplified)_China.utf8\n tz       Asia/Shanghai\n date     2026-05-10\n pandoc   3.9.0.2 @ D:/Program/PANDOC~1.2/ (via rmarkdown)\n quarto   NA @ D:\\\\Program Files\\\\R\\\\RStudio\\\\RESOUR~1\\\\app\\\\bin\\\\quarto\\\\bin\\\\quarto.exe\n\n─ Packages ───────────────────────────────────────────────────────────────────\n package * version date (UTC) lib source\n ggplot2 * 4.0.2   2026-02-03 [1] CRAN (R 4.5.2)\n\n [1] D:/Program Files/R/R-4.5.1/library\n * ── Packages attached to the search path.\n\n──────────────────────────────────────────────────────────────────────────────",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-pie'></i> Composition",
+      "Donut Chart"
+    ]
+  },
+  {
+    "objectID": "Composition/Donut.html#数据准备",
+    "href": "Composition/Donut.html#数据准备",
+    "title": "环状图",
+    "section": "数据准备",
+    "text": "数据准备\n主要运用TCGA数据库和R内置数据集mtcars。\n\n# 1.TCGA数据库（2020年肺癌的临床数据）\nTCGA_cli_df &lt;- readr::read_tsv(\"https://bizard-1301043367.cos.ap-guangzhou.myqcloud.com/raponi2006_public_raponi2006_public_clinicalMatrix.gz\")\n\n# 2.R内置的data——mtcars\nhead(mtcars)\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-pie'></i> Composition",
+      "Donut Chart"
+    ]
+  },
+  {
+    "objectID": "Composition/Donut.html#可视化",
+    "href": "Composition/Donut.html#可视化",
+    "title": "环状图",
+    "section": "可视化",
+    "text": "可视化\n\n1. 基本绘图\n\n1.1 以TCGA数据为例\n\n# 数据准备\ncounts &lt;- table(TCGA_cli_df$T)\ncounts &lt;- as.data.frame(counts)\nnames(counts)[names(counts) == \"Var1\"] &lt;- \"T\"\n# 计算百分比\ncounts$fraction = counts$Freq / sum(counts$Freq)\n# 计算累积百分比（每个矩形顶部的数值）\ncounts$ymax = cumsum(counts$fraction)\n# 计算每个矩形的底部，确定起始位置\ncounts$ymin = c(0, head(counts$ymax, n=-1))\n# 画图\np &lt;- ggplot(counts, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=T)) +\n  geom_rect() +\n  coord_polar(theta=\"y\") + \n  xlim(c(2, 4)) \n\np\n\n\n\n\n\n\n\n图 1: 以TCGA数据为例\n\n\n\n\n\n这个环状图描述了不同肿瘤分期在总样本中所占的比例。\n\n\n1.2 美化图形\n\n使用 theme_void() 来消除不必要的背景、坐标轴、标签等。\n改变颜色。\n不要使用图例，直接给分组添加标签。\n\n\n# 计算百分比\ncounts$fraction = counts$Freq / sum(counts$Freq)\n# 计算累积百分比（每个矩形顶部的数值）\ncounts$ymax = cumsum(counts$fraction)\n# 计算每个矩形的底部，确定起始位置\ncounts$ymin = c(0, head(counts$ymax, n=-1))\n# 计算标签位置\ncounts$labelPosition &lt;- (counts$ymax + counts$ymin) / 2\n# 标签名字\ncounts$label &lt;- paste0(counts$T, \"\\n value: \", counts$Freq)\n# 画图\np &lt;- ggplot(counts, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=T)) +\n  geom_rect() +\n  geom_label( x=3.5, aes(y=labelPosition, label=label), size=6) + #这一行代码可以控制标签在图表中的添加，去除可以删除标签\n  scale_fill_brewer(palette=4) +\n  coord_polar(theta=\"y\") +\n  xlim(c(2, 4)) +\n  theme_void() +\n  theme(legend.position = \"none\")\n\np\n\n\n\n\n\n\n\n图 2: 美化图形\n\n\n\n\n\n这个环状图描述了不同肿瘤分期在总样本中所占的比例。\n\n\n1.3 以mtcars数据为例\n\n# 数据准备\ncounts1 &lt;- table(mtcars$cyl)\ncounts1 &lt;- as.data.frame(counts1)\nnames(counts1)[names(counts1) == \"Var1\"] &lt;- \"cyl\"\n# 计算百分比\ncounts1$fraction = counts1$Freq / sum(counts1$Freq)\n# 计算累积百分比（每个矩形顶部的数值）\ncounts1$ymax = cumsum(counts1$fraction)\n# 计算每个矩形的底部，确定起始位置\ncounts1$ymin = c(0, head(counts1$ymax, n=-1))\n# 计算标签位置\ncounts1$labelPosition &lt;- (counts1$ymax + counts1$ymin) / 2\n# 标签名字\ncounts1$label &lt;- paste0(counts1$T, \"\\n value: \", counts1$Freq)\n# 画图\np &lt;- ggplot(counts1, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=cyl)) +\n  geom_rect() +\n  coord_polar(theta=\"y\") + \n  xlim(c(2, 4)) \n\np\n\n\n\n\n\n\n\n图 3: 以mtcars数据为例\n\n\n\n\n\n这个环状图描述了不同气缸数在总样本中所占的比例。\n\n\n\n2. 改变环的厚度\n\n如果 xlim 的左边界很大，就不会出现空圈。你会得到一个饼图。\n如果 xlim 较低，环会变得更薄。\n\n\n2.1 以TCGA数据为例\n\np &lt;- ggplot(counts, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=T)) +\n  geom_rect() +\n  geom_text( x=2, aes(y=labelPosition, label=label, color=T), size=6) + # X在这是控制标签位置\n  scale_fill_brewer(palette=\"Set1\") +\n  scale_color_brewer(palette=\"Set1\") +\n  coord_polar(theta=\"y\") +\n  xlim(c(-1, 4)) +\n  theme_void() +\n  theme(legend.position = \"none\")\n\np\n\n\n\n\n\n\n\n图 4: 以TCGA数据为例\n\n\n\n\n\n这个环状图描述了不同肿瘤分期在总样本中所占的比例。\n\n\n2.2 以mtcars数据为例\n\np &lt;- ggplot(counts1, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=cyl)) +\n  geom_rect() +\n  geom_text( x=1.5, aes(y=labelPosition, label=label, color=cyl), size=6) + # X在这是控制标签位置在环里面还是外面\n  scale_fill_brewer(palette=\"Set2\") +\n  scale_color_brewer(palette=\"Set2\") +\n  coord_polar(theta=\"y\") +\n  xlim(c(-1, 4)) +\n  theme_void() +\n  theme(legend.position = \"none\")\n\np\n\n\n\n\n\n\n\n图 5: 以mtcars数据为例\n\n\n\n\n\n这个环状图描述了不同气缸数在总样本中所占的比例。",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-pie'></i> Composition",
+      "Donut Chart"
+    ]
+  },
+  {
+    "objectID": "Composition/Donut.html#应用场景",
+    "href": "Composition/Donut.html#应用场景",
+    "title": "环状图",
+    "section": "应用场景",
+    "text": "应用场景\n\n\n\n\n\n\n图 6: 环状图应用场景1\n\n\n\n这个环状图显示了人海马 scRNA-seq 数据集群之间的分布。 [1]\n\n\n\n\n\n\n图 7: 环状图应用场景2\n\n\n\n这个环状图展示了已激活 AP 在两种神经元中所占的比例。 [1]",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-pie'></i> Composition",
+      "Donut Chart"
+    ]
+  },
+  {
+    "objectID": "Composition/Donut.html#参考文献",
+    "href": "Composition/Donut.html#参考文献",
+    "title": "环状图",
+    "section": "参考文献",
+    "text": "参考文献\n[1] de Ceglia R, Ledonne A, Litvin DG, Lind BL, Carriero G, Latagliata EC, Bindocci E, Di Castro MA, Savtchouk I, Vitali I, Ranjak A, Congiu M, Canonica T, Wisden W, Harris K, Mameli M, Mercuri N, Telley L, Volterra A. Specialized astrocytes mediate glutamatergic gliotransmission in the CNS. Nature. 2023 Oct;622(7981):120-129. doi: 10.1038/s41586-023-06502-w. Epub 2023 Sep 6. PMID: 37674083; PMCID: PMC10550825.\n[2] Huang KP, Acosta AA, Ghidewon MY, McKnight AD, Almeida MS, Nyema NT, Hanchak ND, Patel N, Gbenou YSK, Adriaenssens AE, Bolding KA, Alhadeff AL. Dissociable hindbrain GLP1R circuits for satiety and aversion. Nature. 2024 Aug;632(8025):585-593. doi: 10.1038/s41586-024-07685-6. Epub 2024 Jul 10. PMID: 38987598.\n[3] Wickham, H. (2016). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-pie'></i> Composition",
+      "Donut Chart"
+    ]
+  },
+  {
+    "objectID": "Distribution/Density.html",
+    "href": "Distribution/Density.html",
+    "title": "密度图",
+    "section": "",
+    "text": "密度图表示数值变量的分布，是使用核密度估计来显示变量的概率密度函数。密度图是直方图的平滑版本，使用相同的概念，比直方图更好地展示数据的总体趋势和形状。",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Density Plot"
+    ]
+  },
+  {
+    "objectID": "Distribution/Density.html#示例",
+    "href": "Distribution/Density.html#示例",
+    "title": "密度图",
+    "section": "示例",
+    "text": "示例\n\n\n\n\n\n这个密度图展示了TSPAN6基因在多个样本中的表达水平分布情况。密度图X轴表示数据的具体值，也就是数据点的取值范围。在此图中，X轴表示基因的表达水平（如8到15）。密度图Y轴表示密度（Density），不是绝对的样本数量。密度图的Y轴可以理解为某个区间内数据值的“相对频率”。其计算方式是将直方图中每个条形的频率进行平滑处理，以形成一条连续的曲线。密度图的总面积为1，这表示数据在整个X轴范围内的相对概率分布。简单来说，它衡量了某个取值区间内的样本数量相对于总样本量的比例。\n密度图与直方图不同的是，密度图在Y轴上使用密度值而不是绝对频数，从而更平滑地展示数据的分布情况。这种方式可以更清晰地看出数据的集中趋势和整体分布特征。\n该图基因的表达量主要集中在10到13之间，且峰值在大约12附近，表示TSPAN6基因在大多数样本中表达量都相对一致，表达量在12附近的样本数量最多。密度图呈现单峰分布，说明大多数样本中TSPAN6基因的表达模式较为稳定。",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Density Plot"
+    ]
+  },
+  {
+    "objectID": "Distribution/Density.html#环境配置",
+    "href": "Distribution/Density.html#环境配置",
+    "title": "密度图",
+    "section": "环境配置",
+    "text": "环境配置\n\n系统要求： 跨平台（Linux/MacOS/Windows）\n编程语言：R\n依赖包：readr; ggplot2, ggExtra, hrbrthemes, dplyr, tidyr, viridis, ggpmisc, ggpubr, geomtextpath, cowplot\n\n\n# 安装包\nif (!requireNamespace(\"readr\", quietly = TRUE)) {   \n  install.packages(\"readr\") \n} \nif (!requireNamespace(\"ggplot2\", quietly = TRUE)) {   \n  install.packages(\"ggplot2\") \n} \nif (!requireNamespace(\"ggExtra\", quietly = TRUE)) {   \n  install.packages(\"ggExtra\") \n} \nif (!requireNamespace(\"hrbrthemes\", quietly = TRUE)) {\n  install.packages(\"hrbrthemes\") \n} \nif (!requireNamespace(\"dplyr\", quietly = TRUE)) {\n  install.packages(\"dplyr\") \n} \nif (!requireNamespace(\"tidyr\", quietly = TRUE)) {\n  install.packages(\"tidyr\") \n} \nif (!requireNamespace(\"viridis\", quietly = TRUE)) {\n  install.packages(\"viridis\") \n} \nif (!requireNamespace(\"ggpmisc\", quietly = TRUE)) {\n  install.packages(\"ggpmisc\") \n} \nif (!requireNamespace(\"ggpubr\", quietly = TRUE)) {\n  install.packages(\"ggpubr\") \n} \nif (!requireNamespace(\"geomtextpath\", quietly = TRUE)) {\n  install.packages(\"geomtextpath\") \n}  \nif (!requireNamespace(\"cowplot\", quietly = TRUE)) {\n  install.packages(\"cowplot\")\n}\n\n# 加载包\nlibrary(readr)         # 对于读取文件\nlibrary(ggplot2)       # 用于创建图\nlibrary(ggExtra)       # 用于增强 ggplot2 图形\nlibrary(hrbrthemes)    # 对于专业主题 \nlibrary(dplyr)         # 用于数据操作\nlibrary(tidyr)         # 用于重塑数据\nlibrary(viridis)       # 对于颜色映射\nlibrary(ggpmisc)       # 用于统计注释\nlibrary(ggpubr)        # 适用于可发布主题\nlibrary(geomtextpath)  # 用于向密度曲线添加文本\nlibrary(cowplot)       # 绘图对齐和注释包\n\n\nsessioninfo::session_info(\"attached\")\n\nWarning in system2(\"quarto\", \"-V\", stdout = TRUE, env = paste0(\"TMPDIR=\", :\nrunning command '\"quarto\"\nTMPDIR=C:/Users/97539/AppData/Local/Temp/RtmpYfELby/file2708736c4ad2 -V' had\nstatus 1\n\n\n─ Session info ───────────────────────────────────────────────────────────────\n setting  value\n version  R version 4.5.1 (2025-06-13 ucrt)\n os       Windows 11 x64 (build 22631)\n system   x86_64, mingw32\n ui       RTerm\n language (EN)\n collate  Chinese (Simplified)_China.utf8\n ctype    Chinese (Simplified)_China.utf8\n tz       Asia/Shanghai\n date     2026-05-10\n pandoc   3.9.0.2 @ D:/Program/PANDOC~1.2/ (via rmarkdown)\n quarto   NA @ D:\\\\Program Files\\\\R\\\\RStudio\\\\RESOUR~1\\\\app\\\\bin\\\\quarto\\\\bin\\\\quarto.exe\n\n─ Packages ───────────────────────────────────────────────────────────────────\n package      * version date (UTC) lib source\n cowplot      * 1.2.0   2025-07-07 [1] CRAN (R 4.4.3)\n dplyr        * 1.2.1   2026-04-03 [1] CRAN (R 4.5.1)\n geomtextpath * 0.2.0   2025-07-21 [1] CRAN (R 4.4.3)\n ggExtra      * 0.11.0  2025-09-01 [1] CRAN (R 4.4.3)\n ggplot2      * 4.0.2   2026-02-03 [1] CRAN (R 4.5.2)\n ggpmisc      * 0.7.0   2026-03-23 [1] CRAN (R 4.5.3)\n ggpp         * 0.6.0   2026-01-18 [1] CRAN (R 4.5.3)\n ggpubr       * 0.6.1   2025-06-27 [1] CRAN (R 4.4.3)\n hrbrthemes   * 0.8.7   2024-03-04 [1] CRAN (R 4.4.3)\n readr        * 2.2.0   2026-02-19 [1] CRAN (R 4.5.3)\n tidyr        * 1.3.2   2025-12-19 [1] CRAN (R 4.5.2)\n viridis      * 0.6.5   2024-01-29 [1] CRAN (R 4.4.2)\n viridisLite  * 0.4.3   2026-02-04 [1] CRAN (R 4.5.3)\n\n [1] D:/Program Files/R/R-4.5.1/library\n * ── Packages attached to the search path.\n\n──────────────────────────────────────────────────────────────────────────────",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Density Plot"
+    ]
+  },
+  {
+    "objectID": "Distribution/Density.html#数据准备",
+    "href": "Distribution/Density.html#数据准备",
+    "title": "密度图",
+    "section": "数据准备",
+    "text": "数据准备\n以下是使用R内置数据集（iris, mtcars, diamonds）以及来自 UCSC Xena DATASETS 的TCGA-LIHC.htseq_counts.tsv数据集的简短教程。此示例演示了如何在R中加载和使用这些数据集。\n\n# 读取TSV数据\ndata &lt;- readr::read_csv(\"https://bizard-1301043367.cos.ap-guangzhou.myqcloud.com/TCGA-LIHC.htseq_counts.csv.gz\")\n\n# 过滤并重塑第一个基因 TSPAN6 的数据（Ensembl ID：ENSG00000000003.13）\ndata1 &lt;- data %&gt;%   \n  filter(Ensembl_ID == \"ENSG00000000003.13\") %&gt;%   \n  pivot_longer(     \n    cols = -Ensembl_ID,      \n    names_to = \"sample\",      \n    values_to = \"expression\"   \n    ) %&gt;%   \n  mutate(var = \"var1\")  # 添加一列来区分变量\n\n# 过滤并重塑第二个基因 SCYL3 的数据（Ensembl ID：ENSG00000000457.12）\ndata2 &lt;- data %&gt;%   \n  filter(Ensembl_ID == \"ENSG00000000457.12\") %&gt;%   \n  pivot_longer(     \n    cols = -Ensembl_ID,      \n    names_to = \"sample\",      \n    values_to = \"expression\"   \n    ) %&gt;%   \n  mutate(var = \"var2\")  # 添加一列来区分变量\n\n# 合并两个数据集\ndata12 &lt;- bind_rows(data1, data2)  \n\n# 查看最终的组合数据集\nhead(data12)\n\n# A tibble: 6 × 4\n  Ensembl_ID         sample           expression var  \n  &lt;chr&gt;              &lt;chr&gt;                 &lt;dbl&gt; &lt;chr&gt;\n1 ENSG00000000003.13 TCGA-DD-A4NG-01A      12.8  var1 \n2 ENSG00000000003.13 TCGA-G3-AAV4-01A       9.72 var1 \n3 ENSG00000000003.13 TCGA-2Y-A9H1-01A      11.3  var1 \n4 ENSG00000000003.13 TCGA-CC-A3M9-01A      11.6  var1 \n5 ENSG00000000003.13 TCGA-K7-AAU7-01A      11.5  var1 \n6 ENSG00000000003.13 TCGA-BC-A10W-01A      12.0  var1",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Density Plot"
+    ]
+  },
+  {
+    "objectID": "Distribution/Density.html#可视化",
+    "href": "Distribution/Density.html#可视化",
+    "title": "密度图",
+    "section": "可视化",
+    "text": "可视化\n\n1. 基础密度图\nggplot2包中可以借助geom_density构建密度图，只需要一个数值变量作为输入。\n\n# 基础密度图\np1 &lt;- ggplot(data1, aes(x = expression)) +   \n  geom_density(fill = \"#69b3a2\", color = \"#e9ecef\", alpha = 0.8) +   \n  labs(title = \"Density Plot of TSPAN6 Expression Levels\",        \n       x = \"Expression\",        \n       y = \"Density\") +   \n  theme_minimal()  \np1\n\n\n\n\n\n\n\n图 1: 基础密度图\n\n\n\n\n\n图 1 展示了TCGA来源的LIHC患者中TSPAN6基因在多个样本中的表达水平分布情况。\n\n\n\n\n\n\n提示\n\n\n\ntheme_ipsum 您可以使用hrbrthemes软件包中的theme_ipsum：它易于使用，并能让您的图表看起来更专业。如您所见，theme_ipsum()附带一组预配置设置，例如字体大小、颜色和网格线，这些设置遵循良好的可视化实践，设计精良，可直接发布。\n\nggplot(data1, aes(x = expression)) +\n  geom_density(fill = \"#69b3a2\", color = \"#e9ecef\", alpha = 0.8) +\n  labs(title = \"Density Plot of TSPAN6 Expression Levels\",\n       x = \"Expression\",\n       y = \"Density\") +\n  theme_ipsum()\n\n\n\n\n\n\n\n图 2: Themed Density Plot\n\n\n\n\n\n\n\n\n\n2. 镜像密度图\n镜像密度图帮助我们非常直观地对比两个数据集的分布。通过镜像结构，可以快速判断两个数据集是否存在对称性或差异。镜像密度图将两个密度图整合在一张图上，减少了所需的可视化空间，同时保持了对数据分布的清晰描述。\n\n# 绘制镜像密度图\nggplot(data12, aes(x = expression, fill = var)) +\n\n  # 绘制上半部分的密度曲线\n  geom_density(data = filter(data12, var == \"var1\"), aes(y = ..density..), fill = \"#69b3a2\", alpha = 0.8) +\n  geom_label(data = filter(data12, var == \"var1\"), aes(x = median(expression), y = 0.25, label = \"TSPAN6\"), color = \"white\", fill = \"#1b9e77\") +\n  \n  # 绘制下半部分的密度曲线\n  geom_density(data = filter(data12, var == \"var2\"), aes(y = -..density..), fill = \"#404080\", alpha = 0.8) +\n  geom_label(data = filter(data12, var == \"var2\"), aes(x = median(expression), y = -0.25, label = \"C1QA\"), color = \"white\", fill = \"#7570b3\") +  \n\n  # 图形美化\n  xlab(\"Expression\") +\n  ylab(\"Density\") +\n  ggtitle(\"Mirror Density Plot of TSPAN6 and C1QA\") +\n  theme(legend.position = \"none\") +\n  theme_minimal()\n\n\n\n\n\n\n\n图 3: 镜像密度图\n\n\n\n\n\n图 3 展示了TCGA来源的LIHC患者中TSPAN6和C1QA基因的表达量分布。也可以用同样的方法获得镜像直方图。\n\n\n3. 多个组的密度图\n多个组密度图的能够直观地比较不同组的分布差异，帮助识别趋势、模式和异常值，同时在同一图表中呈现多个组的数据，有助于快速对比组间特征。但是当组别较多或分布曲线重叠时，图形容易显得混乱，难以辨识各组的差异，导致图表的可读性下降。可以通过调整透明度来减少重叠区域的视觉干扰。不过，这种方法只能在一定程度上改善可视化效果，并非万能的解决方案，可以采用此文档后续的其他绘图方法来解决（例如分面密度图）。\n\n# 不设置透明度（左）\np1 &lt;- ggplot(data=diamonds, aes(x=price, group=cut, fill=cut)) +\n  geom_density(adjust=1.5) +\n  theme_minimal() +\n  ggtitle(\"p1\")\n\n# 设置透明度（右）\np2 &lt;- ggplot(data=diamonds, aes(x=price, group=cut, fill=cut)) +\n  geom_density(adjust=1.5, alpha=.4) +\n  theme_minimal() +\n  ggtitle(\"p2\")\n\nplot_grid(p1, p2, ncol = 2)\n\n\n\n\n\n\n\n图 4: 多个组的密度图使用 Diamonds 数据集\n\n\n\n\n\n图 4 对比了不同透明度设置下的diamonds数据集价格分布的密度图。左侧图（p1）未设置透明度，所有分组的填充颜色不透明，图形整体较为拥挤，且分组间重叠较多，难以辨认信息；右侧图（p2）设置了透明度，使得不同分组的颜色层叠效果更为明显，从而能够更清楚地观察每个组别的密度分布特征。\n\n# 创建注释框架\nannot &lt;- data.frame(\n  Species = c(\"setosa\", \"versicolor\", \"virginica\"),\n  x = c(1.8, 4, 5.1),  # 每个物种的注释位置\n  y = c(0.5, 0.9, .8)\n)\n\n# 生成密度图\nggplot(filter(iris, Species %in% c(\"setosa\", \"versicolor\", \"virginica\")), aes(x = Petal.Length, color = Species, fill = Species)) +\n  geom_density(alpha = 0.6) +\n  scale_fill_viridis(discrete = TRUE) +\n  scale_color_viridis(discrete = TRUE) +\n  geom_text(data = annot, aes(x = x, y = y, label = Species, color = Species), hjust = 0, size = 4.5) +\n  theme_minimal() +\n  theme(\n    legend.position = \"none\"\n  ) +\n  ylab(\"\") +\n  xlab(\"Petal Length (cm)\")\n\n\n\n\n\n\n\n图 5: 多个组的密度图使用 Iris 数据集\n\n\n\n\n\n图 5 展示了Iris数据集中不同物种的花瓣长度（Petal.Length）分布密度，可以直观地看出每个物种在花瓣长度上的分布差异。\n\n\n4. 分面密度图\n多个变量的分面密度图通过在不同的面板中展示不同组的数据，可以更直观地比较各组之间的分布差异，减少了视觉上的杂乱。如果所有面板都共享相同的X轴，则仍可以比较各组的分布特征，例如中心位置、散布程度和形状。多个变量的分面密度图使用facet_wrap()实现。\n\nggplot(data=diamonds, aes(x=price, group=cut, fill=cut)) +\n  geom_density(adjust=1.5) +\n  theme_ipsum() +\n  facet_wrap(~cut) + \n  theme(\n    legend.position=\"none\",\n    panel.spacing = unit(0.1, \"lines\"),\n    axis.ticks.x=element_blank()\n  )\n\n\n\n\n\n\n\n图 6: 分面密度图\n\n\n\n\n\n图 6 展示了diamonds数据集中不同切工等级的价格分布情况。每个切工组别的密度曲线单独分面显示，便于在相同坐标系下观察不同切工等级的价格分布形态。\n\n\n5. 堆积密度图\n堆积密度图中各组的密度分布被堆积起来，不会出现曲线重叠导致的混乱。但各组被堆叠在一起，很难理解不在图表底部的组的分布。（更推荐使用分面密度图）。\n\np &lt;- ggplot(data=diamonds, aes(x=price, group=cut, fill=cut)) +\n  geom_density(adjust=1.5, position=\"fill\") +\n  theme_ipsum()\np\n\n\n\n\n\n\n\n图 7: 堆积密度图\n\n\n\n\n\n图 7 展示了diamonds数据中不同切工等级的价格相对分布。使用堆积密度图（position=\"fill\"）使得所有组别在每个价格位置的累积密度总和为1，便于对比不同切工组别的相对密度分布。\n\n\n6. 边际分布（密度图）\n边际分布提供了关于数据的额外信息，不仅展示了变量之间的关系，还揭示了每个变量的独立分布特征。将边际密度图与散点图（或其他主图）结合的综合视角使得发现数据中的模式、异常值和趋势更加容易。使用ggExtra包中的ggMarginal()绘制边际分布（密度图）。\n\np &lt;- ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl), size = factor(cyl))) +\n  geom_point(aes(color = factor(cyl)), show.legend = TRUE) +  # 散点图根据 cyl 变化大小\n  geom_smooth(method = 'lm', formula = y ~ x, se = TRUE, linewidth = 1, aes(color = factor(cyl))) +  # 回归曲线颜色和宽度\n  scale_color_manual(values = c(\"#2e3b97\", \"#faad61\", \"#b76252\")) +  # 指定回归曲线颜色\n  stat_poly_eq(aes(label = paste(after_stat(eq.label), after_stat(rr.label), after_stat(p.value.label), sep = \"~~~~\")), \n               formula = y ~ x, size = 4,\n               hjust = -1,   # 调整水平对齐\n               vjust = 1.1,   # 调整垂直对齐\n               position = position_nudge(x = 2.7, y = 1)) + \n  theme(legend.position = \"none\")  # 不显示图例\n\n# 边际密度图\np1 &lt;- ggMarginal(p, type=\"density\")  \n\np1\n\n\n\n\n\n\n\n图 8: 边际分布密度图\n\n\n\n\n\n散点图展示了 mtcars数据集中不同气缸数量（cyl）的汽车在重量（wt）和每加仑里程数（mpg）之间的关系。该边际密度图显示了不同气缸数量（cyl）的汽车在wt（重量）和mpg（每加仑里程数）上的分布模式，从而揭示了wt或mpg在不同气缸组之间的差异性。\n\n\n\n\n\n\n提示\n\n\n\n边际分布密度图可修改的参数\n\n使用size参数来更改边际图的大小。\n使用常用参数自定义边际图的外观。\n使用 margins = 'x' 或 margins = 'y' 仅显示一个边际图（x 轴或 y 轴）。\n\n\np &lt;- ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl), size = factor(cyl))) +\n  geom_point(aes(color = factor(cyl)), show.legend = TRUE) +  # 散点图根据 cyl 变化大小\n  geom_smooth(method = 'lm', formula = y ~ x, se = TRUE, linewidth = 1, aes(color = factor(cyl))) +  # 回归曲线颜色和宽度\n  scale_color_manual(values = c(\"#2e3b97\", \"#faad61\", \"#b76252\")) +  # 指定回归曲线颜色\n  stat_poly_eq(aes(label = paste(after_stat(eq.label), after_stat(rr.label), after_stat(p.value.label), sep = \"~~~~\")),\n               formula = y ~ x, size = 4,\n               hjust = -1.45,   # 调整水平对齐，修改了水平对齐的值\n               vjust = 1.1,   # 调整垂直对齐\n               position = position_nudge(x = 2.7, y = 1)) + \n  theme(legend.position = \"none\")  # 不显示图例\n\n# 边际密度图\np2 &lt;- ggMarginal(p, type=\"density\", margins = 'x', color=\"purple\", size = 4)  # 仅显示 x 轴边际密度图\n\np2\n\n\n\n\n\n\n\n图 9: 自定义参数用于绘制边际分布密度图\n\n\n\n\n\n与前图类似，此图同样展示了mtcars数据集中不同气缸数量（cyl）的汽车在重量（wt）和每加仑里程数（mpg）之间的关系。该边际密度图显示了不同气缸数量（cyl）的汽车在mpg（每加仑里程数）上的分布模式。\n\n\n\n\n7. 带标注的密度图\n带标注的密度图能够在图中直接显示关键信息或组名，便于快速理解各组数据的分布和差异，无需借助图例，从而提升图表的可读性和信息传达效率。使用ggplot2和geomtextpath包在密度图的线上添加文本或标签。\n\nggplot(iris, aes(x = Sepal.Length, colour = Species, label = Species)) +\n  geom_textdensity() +\n  theme_bw() + guides(color = 'none')\n\n\n\n\n\n\n\n图 10: 带标注的密度图\n\n\n\n\n\n图 10 使用文本密度曲线表示iris数据集中不同物种的Sepal.Length分布。文本布局会根据分布密度动态调整，从而更容易直观地观察不同物种Sepal.Length的分布。\n\n\n\n\n\n\n提示\n\n\n\n可以更改geom_textdensity()的参数来改变标签的属性\n\nsize：文本的大小。\nfontface：字体样式。\nvjust：垂直调整。\nhjust：水平调整。 最后两个参数可以是浮点数（通常在-1和1之间），也可以是字符串，例如xmid(或ymid)、xmax(或ymax)和auto(默认)。\n\n\n\n\nmtcars$labels = ifelse(mtcars$vs==0, \"Type 0\", \"Type 1\")\nggplot(mtcars, aes(x = qsec, colour = as.factor(labels), label = as.factor(labels))) +\n  geom_textdensity(size = 6, fontface = 4, # 加粗斜体\n                   vjust = -0.4, hjust = \"ymid\") +\n  theme_bw() + guides(color = 'none')  # 移除颜色图例\n\n\n\n\n\n\n\n图 11: 自定义参数用于带标注的密度图\n\n\n\n\n\n图 11 展示了mtcars数据集中qsec（1/4英里加速时间）与vs（发动机类型）的文本密度分布。通过更改文本密度属性使得标签更加醒目易读。",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Density Plot"
+    ]
+  },
+  {
+    "objectID": "Distribution/Density.html#应用场景",
+    "href": "Distribution/Density.html#应用场景",
+    "title": "密度图",
+    "section": "应用场景",
+    "text": "应用场景\n\n1. 基础密度图\n\n\n\n\n\n\nMende, D. R. et al.(2016)\n\n\n\n\n图 12: 基础密度图应用\n\n\n\n图 12: 本文使用的宏基因组学和单细胞数据集中组装的iSAGs的覆盖率总结。（A）宏基因组读数的片段募集图映射到本研究中构建的iSAG上。每个图底部的橙色和绿色交替条形显示重叠群边界，这些边界按从最长到最短的顺序排序。（B）密度图显示了映射到此处构建的iSAG上的原始SAG读数的相对覆盖率。[1]\n\n\n2. 多个组的密度图\n\n\n\n\n\n\nGrimmer, M. R. et al.(2014)\n\n\n\n\n图 13: 多个组的密度图应用\n\n\n\n图 13: 激活与抑制启动子的分析。（A）在结合启动子处主要598-SKD结合基序（如上图所示，代表部分设计靶标基序）频率的标签密度图。彩色曲线对应于活性不变、下调或上调的基因上的 598-SKD 结合启动子。（B）跨表达组598-SKD靶启动子处598-SKD和598个ChIP-seq标签的标签密度图;绘图颜色对应于（A）中的颜色。（C）598-SKD跨启动子和基因体的标签密度图;绘图颜色对应于（A）中的颜色。[2]\n\n\n3. 分面密度图\n\n\n\n\n\n\nReck, M. et al.(2015)\n\n\n\n\n图 14: 分面密度图应用\n\n\n\n图 14 在LytFsm报告基因菌株背景中对comE、comR、comS和comRS进行过表达分析。[3]",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Density Plot"
+    ]
+  },
+  {
+    "objectID": "Distribution/Density.html#参考文献",
+    "href": "Distribution/Density.html#参考文献",
+    "title": "密度图",
+    "section": "参考文献",
+    "text": "参考文献\n\nMende, D. R., Aylward, F. O., Eppley, J. M., Nielsen, T. N., & DeLong, E. F. (2016). Improved Environmental Genomes via Integration of Metagenomic and Single-Cell Assemblies. Frontiers in Microbiology, 7, 143. https://doi.org/10.3389/fmicb.2016.00143. PMID: 26904016; PMCID: PMC4749706.\n\nGrimmer, M. R., Stolzenburg, S., Ford, E., Lister, R., Blancafort, P., & Farnham, P. J. (2014). Analysis of an artificial zinc finger epigenetic modulator: widespread binding but limited regulation. Nucleic Acids Research, 42(16), 10856–10868. https://doi.org/10.1093/nar/gku708. PMID: 25122745; PMCID: PMC4176344.\nReck, M., Tomasch, J., & Wagner-Döbler, I. (2015). The Alternative Sigma Factor SigX Controls Bacteriocin Synthesis and Competence, the Two Quorum Sensing Regulated Traits in Streptococcus mutans. PLoS Genetics, 11(7), e1005353. https://doi.org/10.1371/journal.pgen.1005353. PMID: 26158727; PMCID: PMC4497675.\n\nWickham, H. (2016). ggplot2: Elegant graphics for data analysis. Springer. https://ggplot2.tidyverse.org\n\nGao, Y. (2021). ggExtra: Add marginal plots to ggplot2. https://cran.r-project.org/package/ggExtra\n\nRudis, B. (2020). hrbrthemes: Additional Themes and Theme Components for ‘ggplot2’. https://cran.r-project.org/package/hrbrthemes\n\nWickham, H., François, R., Henry, L., & Müller, K. (2021). dplyr: A Grammar of Data Manipulation. https://cran.r-project.org/package/dplyr\nWickham, H., & Henry, L. (2021). tidyr: Tidy Messy Data. https://cran.r-project.org/package/tidyr\n\nGarnier, S. (2018). viridis: Default Color Maps from ‘matplotlib’. https://cran.r-project.org/package/viridis\n\nAubry, R., & Bouchard, C. (2020). ggpmisc: Miscellaneous Extensions to ‘ggplot2’. https://cran.r-project.org/package/ggpmisc\n\nKassambara, A. (2021). ggpubr: ‘ggplot2’ Based Publication Ready Plots. https://cran.r-project.org/package/ggpubr\n\nBrown, C. (2022). geomtextpath: Curved Text on Geoms in ‘ggplot2’. https://cran.r-project.org/package/geomtextpath\nWilke, C. O. (2020). cowplot: Streamlined Plot Theme and Plot Annotations for “ggplot2”. https://cran.r-project.org/package=cowplot",
+    "crumbs": [
+      "<i class='fa-solid fa-chart-simple'></i> Distribution",
+      "Density Plot"
+    ]
+  },
+  {
+    "objectID": "Distribution/ViolinPlot.html",
+    "href": "Distribution/ViolinPlot.html",
+    "title": "小提琴图",
+    "section": "",
+    "text": "小提琴图是一种基于密度图和箱线图的可视化方式，它能够展示数据的分布情况，包括中位数、四分位数、最大值、最小值等信息。常用于比较不同组之间的数据分布情况，它的可视化效果比箱线图更加直观，能够更好地展示数据的特点。"
+  },
+  {
+    "objectID": "Distribution/ViolinPlot.html#示例",
+    "href": "Distribution/ViolinPlot.html#示例",
+    "title": "小提琴图",
+    "section": "示例",
+    "text": "示例"
+  },
+  {
+    "objectID": "Distribution/ViolinPlot.html#环境配置",
+    "href": "Distribution/ViolinPlot.html#环境配置",
+    "title": "小提琴图",
+    "section": "环境配置",
+    "text": "环境配置\n\n系统要求： 跨平台（Linux/MacOS/Windows）\n编程语言：R\n依赖包：readr; tidyr; ggplot2; dplyr; gghalves; forcats; hrbrthemes; viridis; ggstatsplot; palmerpenguins\n\n\n# 安装包\nif (!requireNamespace(\"readr\", quietly = TRUE)) {\n  install.packages(\"readr\")\n}\nif (!requireNamespace(\"tidyr\", quietly = TRUE)) {\n  install.packages(\"tidyr\")\n}\nif (!requireNamespace(\"gghalves\", quietly = TRUE)) {\n  install.packages(\"https://cran.r-project.org/src/contrib/Archive/gghalves/gghalves_0.1.4.tar.gz\")\n}\nif (!requireNamespace(\"dplyr\", quietly = TRUE)) {\n  install.packages(\"dplyr\")\n}\nif (!requireNamespace(\"ggplot2\", quietly = TRUE)) {\n  install.packages(\"ggplot2\")\n}\nif (!requireNamespace(\"ggpubr\", quietly = TRUE)) {\n  install.packages(\"ggpubr\")\n}\nif (!requireNamespace(\"forcats\", quietly = TRUE)) {\n  install.packages(\"forcats\")\n}\nif (!requireNamespace(\"hrbrthemes\", quietly = TRUE)) {\n  install.packages(\"hrbrthemes\")\n}\nif (!requireNamespace(\"viridis\", quietly = TRUE)) {\n  install.packages(\"viridis\")\n}\nif (!requireNamespace(\"ggstatsplot\", quietly = TRUE)) {\n  install.packages(\"ggstatsplot\")\n}\nif (!requireNamespace(\"palmerpenguins\", quietly = TRUE)) {\n  install.packages(\"palmerpenguins\")\n}\n\n# 加载包\nlibrary(readr)\nlibrary(tidyr)\nlibrary(ggplot2)\nlibrary(ggpubr)\nlibrary(dplyr)\nlibrary(gghalves)\nlibrary(forcats)\nlibrary(hrbrthemes)\nlibrary(viridis)\nlibrary(ggstatsplot)\nlibrary(palmerpenguins)\n\n\nsessioninfo::session_info(\"attached\")\n\nWarning in system2(\"quarto\", \"-V\", stdout = TRUE, env = paste0(\"TMPDIR=\", :\nrunning command '\"quarto\"\nTMPDIR=C:/Users/97539/AppData/Local/Temp/Rtmp4sKIAD/file2654693d2db6 -V' had\nstatus 1\n\n\n─ Session info ───────────────────────────────────────────────────────────────\n setting  value\n version  R version 4.5.1 (2025-06-13 ucrt)\n os       Windows 11 x64 (build 22631)\n system   x86_64, mingw32\n ui       RTerm\n language (EN)\n collate  Chinese (Simplified)_China.utf8\n ctype    Chinese (Simplified)_China.utf8\n tz       Asia/Shanghai\n date     2026-05-10\n pandoc   3.9.0.2 @ D:/Program/PANDOC~1.2/ (via rmarkdown)\n quarto   NA @ D:\\\\Program Files\\\\R\\\\RStudio\\\\RESOUR~1\\\\app\\\\bin\\\\quarto\\\\bin\\\\quarto.exe\n\n─ Packages ───────────────────────────────────────────────────────────────────\n package        * version date (UTC) lib source\n dplyr          * 1.2.1   2026-04-03 [1] CRAN (R 4.5.1)\n forcats        * 1.0.0   2023-01-29 [1] CRAN (R 4.4.2)\n gghalves       * 0.1.4   2022-11-20 [1] CRAN (R 4.4.3)\n ggplot2        * 4.0.2   2026-02-03 [1] CRAN (R 4.5.2)\n ggpubr         * 0.6.1   2025-06-27 [1] CRAN (R 4.4.3)\n ggstatsplot    * 0.13.1  2025-05-09 [1] CRAN (R 4.4.2)\n hrbrthemes     * 0.8.7   2024-03-04 [1] CRAN (R 4.4.3)\n palmerpenguins * 0.1.1   2022-08-15 [1] CRAN (R 4.5.3)\n readr          * 2.2.0   2026-02-19 [1] CRAN (R 4.5.3)\n tidyr          * 1.3.2   2025-12-19 [1] CRAN (R 4.5.2)\n viridis        * 0.6.5   2024-01-29 [1] CRAN (R 4.4.2)\n viridisLite    * 0.4.3   2026-02-04 [1] CRAN (R 4.5.3)\n\n [1] D:/Program Files/R/R-4.5.1/library\n * ── Packages attached to the search path.\n\n──────────────────────────────────────────────────────────────────────────────"
+  },
+  {
+    "objectID": "Distribution/ViolinPlot.html#数据准备",
+    "href": "Distribution/ViolinPlot.html#数据准备",
+    "title": "小提琴图",
+    "section": "数据准备",
+    "text": "数据准备\n我们使用内置的 R 数据集（iris、penguins）以及来自UCSC Xena DATASETS的TCGA-BRCA.htseq_counts.tsv数据集。所选基因仅用于演示目的。\n\n# 从处理过的CSV文件加载TCGA-BRCA基因表达数据集\ndata_counts &lt;- readr::read_csv(\"https://bizard-1301043367.cos.ap-guangzhou.myqcloud.com/TCGA-BRCA.htseq_counts_processed.csv\")\n\n# 加载内置R数据集iris\ndata_wide &lt;- iris[ , 1:4] # 以iris数据前四列数据为例\n\n# 加载内置R数据集penguins\ndata(\"penguins\", package = \"palmerpenguins\")\ndata_penguins &lt;- drop_na(penguins) # 去除缺失值\n\n# 手动创建含分组值的演示数据集\ndata &lt;- data.frame(\n  name=c( rep(\"A\",500), rep(\"B\",500), rep(\"B\",500), rep(\"C\",20), rep('D', 100)  ),\n  value=c( rnorm(500, 10, 5), rnorm(500, 13, 1), rnorm(500, 18, 1), rnorm(20, 25, 4), rnorm(100, 12, 1) )\n  )\nsample_size &lt;- data %&gt;% \n  group_by(name) %&gt;% \n  summarize(num=n()) # 计算每组的样本量"
+  },
+  {
+    "objectID": "Distribution/ViolinPlot.html#可视化",
+    "href": "Distribution/ViolinPlot.html#可视化",
+    "title": "小提琴图",
+    "section": "可视化",
+    "text": "可视化\n\n1. 基础小提琴图\n示例 1: 基础小提琴图使用手动创建的数据集\n\n# 基础小提琴图\np &lt;- ggplot(data, aes(x=name, y=value, fill=name)) + \n  geom_violin()\n\np\n\n\n\n\n\n\n\n图 1: 基础小提琴图\n\n\n\n\n\n示例 2: 基础小提琴图使用 iris 数据集\n\n# 将 `iris` 数据集从宽格式转换为长格式。使用 gather 函数将每列中的数据收集到名为\"MesureType\"和\"Val\"的两个新列中，以便一行代表一个观测值。\ndata_long_iris &lt;- data_wide %&gt;%  \n  gather(key = \"MeasureType\", value = \"Value\")  \n\nggplot(data_long_iris, aes(x = MeasureType, y = Value, fill = MeasureType)) +  \n  geom_violin()  \n\n\n\n\n\n\n\n图 2: 基础小提琴图使用 iris 数据集\n\n\n\n\n\n示例 3: 基础小提琴图使用 TCGA-BRCA 基因表达数据集\n\nexample_counts1 &lt;- data_counts[1:5,] %&gt;%\n  gather(key = \"sample\",value = \"gene_expression\",3:1219) # 选择五个示例基因进行可视化：A1BG、A1BG-AS1、A1CF、A2M 和 A2M-AS1。\n\nggplot(example_counts1, aes(x=gene_name, y=gene_expression, fill=gene_name)) +\n  geom_violin()\n\n\n\n\n\n\n\n图 3: 基础小提琴图使用 TCGA-BRCA 基因表达数据集\n\n\n\n\n\n示例 4： 基础小提琴图组间差异显著性并标注\n\n# 将数据进行整理和分组\ndata_long_iris &lt;- data_wide %&gt;%\n  gather(key = \"MeasureType\",\n         value = \"Value\")\n\n# 绘制基础小提琴图\np &lt;- ggplot(data_long_iris,\n       aes(x = MeasureType,\n           y = Value,\n           fill = MeasureType)) +\n  geom_violin()\n\n# 将分组提取和去重\ngroups &lt;- length(unique(data_long_iris$MeasureType))\nif (groups == 2) {\n    p &lt;- p +\n        stat_compare_means(\n            method = \"wilcox.test\", # c(\"t.test\", \"wilcox.test\")\n            paired = FALSE,\n            method.args = list(),\n            ref.group = NULL,\n            comparisons = NULL,\n            hide.ns = FALSE,\n            label.sep = \", \",\n            label = \"p.format\", # c(\"p.signif\", \"p.format\")\n            label.x.npc = \"left\",\n            label.y.npc = \"top\",\n            label.x = NULL,\n            label.y = NULL,\n            vjust = 0,\n            tip.length = 0.03,\n            bracket.size = 0.3,\n            step.increase = 0.1,\n            symnum.args = list(),\n            geom = \"text\",\n            position = \"identity\",\n            na.rm = FALSE,\n            show.legend = NA,\n            inherit.aes = TRUE\n        )\n} else if (groups &gt; 2) {\n    p &lt;- p +\n        stat_compare_means(\n            method = \"wilcox.test\", # c(\"t.test\", \"wilcox.test\")\n            paired = FALSE,\n            method.args = list(),\n            ref.group = NULL,\n            # 对于多个分组比较进行两两比较\n            comparisons = combn(unique(as.character(data_long_iris$MeasureType)), 2, simplify = FALSE),\n            hide.ns = FALSE,\n            label.sep = \", \",\n            label = \"p.format\", # c(\"p.signif\", \"p.format\")\n            label.x.npc = \"left\",\n            label.y.npc = \"top\",\n            label.x = NULL,\n            label.y = NULL,\n            vjust = 0,\n            tip.length = 0.03,\n            bracket.size = 0.3,\n            step.increase = 0.1,\n            symnum.args = list(),\n            geom = \"text\",\n            position = \"identity\",\n            na.rm = FALSE,\n            show.legend = NA,\n            inherit.aes = TRUE\n        )\n}\n\np\n\n\n\n\n\n\n\n图 4: 基础小提琴图组间差异显著性并标注\n\n\n\n\n\n\n\n2. 反转小提琴图\n我们可以通过 coord_flip() 实现x、y轴的翻转。\n\nexample_counts2 &lt;- data_counts[1:6,] %&gt;% \n  gather(key = \"sample\",value = \"gene_expression\",3:1219) %&gt;% \n  mutate(gene_name= fct_reorder(gene_name,gene_expression ))\n\nggplot(example_counts2, aes(x=gene_name, y=gene_expression, fill=gene_name, color=gene_name)) +\n  geom_violin() +\n  scale_fill_viridis(discrete=TRUE) +\n  scale_color_viridis(discrete=TRUE) +\n  theme_ipsum() + # 改善主题外观\n  theme(legend.position=\"none\" ) +\n  coord_flip() + # 翻转 x 轴和 y 轴\n  xlab(\"\") +\n  ylab(\"Assigned Probability (%)\")\n\n\n\n\n\n\n\n图 5: 反转小提琴图使用 TCGA-BRCA 数据集\n\n\n\n\n\n\n\n3. 箱线小提琴图\n在实际可视化应用中，我们可以通过geom_boxplot()在小提琴图中添加箱线图，便于更加直观的比较数据。\n\nexample_data &lt;- data %&gt;% \n  left_join(sample_size) %&gt;%\n  mutate(myaxis = paste0(name, \"\\n\", \"n=\", num)) # 创建`myaxis`变量以在 x 轴上显示样本大小。\n\nggplot(example_data, aes(x=myaxis, y=value, fill=name)) +\n  geom_violin(width=1.4) +\ngeom_boxplot( width=0.1,color=\"grey\", alpha=0.2) + # 绘制箱线图。较小的宽度值会使箱线图位于小提琴图内。\nscale_fill_viridis(discrete = TRUE) +\n  theme_ipsum() + # 美化绘图\n  theme(\n   legend.position=\"none\",\n   plot.title = element_text(size=11)\n  ) +\n  ggtitle(\"A Violin plot wrapping a boxplot\") +  # 设置标题\n  xlab(\"\")\n\n\n\n\n\n\n\n图 6: 箱线小提琴图\n\n\n\n\n\n使用 TCGA-BRCA 基因表达数据绘制的带有箱线图的小提琴图\n\nexample_counts3 &lt;- data_counts[1:5,] %&gt;%\n  gather(key = \"sample\", value = \"gene_expression\",3:1219) %&gt;%\n  mutate(gene_name= fct_reorder(gene_name,gene_expression ))\n\nggplot(example_counts3, aes(x=gene_name, y=gene_expression, fill=gene_name, color=gene_name)) +\n  geom_violin() +\n  geom_boxplot( width=0.1,color=\"grey\", alpha=0.2)+\n  scale_fill_viridis(discrete=TRUE) +\n  scale_color_viridis(discrete=TRUE) +\n  theme_ipsum() + # 美化绘图\n  theme(legend.position=\"none\" ) \n\n\n\n\n\n\n\n图 7: 使用 TCGA-BRCA 基因表达数据绘制的带有箱线图的小提琴图\n\n\n\n\n\n\n\n4. 分组小提琴图\n在基础小提琴图的基础上，我们可以通过设置fill值来实现组内比较。\n下面的示例演示了如何使用fill属性进行组内比较。本例中使用了penguins数据集。x 变量代表物种，fill=sex创建了组内分类，以可视化每个物种内按性别分组的鳍状肢长度比较。\n\nggplot(data_penguins, aes(fill=sex, y=flipper_length_mm, x=species)) + # 使用X作为主分类，fill为组内分类\n  geom_violin(position=\"dodge\", alpha=0.5, outlier.colour=\"transparent\") +\n  scale_fill_viridis(discrete=T, name=\"\") +\n  theme_ipsum()  \n\n\n\n\n\n\n\n图 8: 分组小提琴图使用 penguins 数据集\n\n\n\n\n\n\n\n5. 半分小提琴图\n半分小提琴图可以用简便的方式展现大量信息，我们可以用geom_half_violin函数分别绘制两个group.\n在下面的例子中，我们通过在图的两侧绘制雌性和雄性企鹅来可视化不同物种和性别的企鹅的鳍状肢长度。\n\n# 分离雌性企鹅和雄性企鹅的数据\ndata_female &lt;- data_penguins %&gt;% filter(sex == \"female\")\ndata_male &lt;- data_penguins %&gt;% filter(sex == \"male\")\n\n# 绘制半分小提琴图（右侧为雌性，左侧为雄性）\nggplot() +\n  geom_half_violin(\n    data = data_female,\n    aes(y = flipper_length_mm, x = species),\n    position = position_dodge(width = 1),\n    scale = 'width',\n    colour = NA,\n    fill = \"#9370DB\",\n    alpha = 0.8,  ## 设置透明度\n    side = \"r\"\n  ) +\n  geom_half_violin(\n    data = data_male,\n    aes(y = flipper_length_mm, x = species),\n    position = position_dodge(width = 1),\n    scale = 'width',\n    colour = NA,\n    fill = \"#FFFF00\",\n    alpha = 0.6,\n    side = \"l\"\n  )\n\n\n\n\n\n\n\n图 9: 半分小提琴图使用 penguins 数据集\n\n\n\n\n\n\n\n6. 使用ggstatsplot包绘制小提琴图\nggstatsplot包扩展了ggplot2，添加了强大的统计可视化功能。ggbetweenstats()函数允许创建组合小提琴图、箱线图和散点图。\n在以下示例中，我们使用penguins数据集可视化了不同企鹅物种喙长的分布。我们使用theme()函数进一步增强了绘图的美观性。\n\nplt &lt;- ggbetweenstats(\n  data = data_penguins,\n  x = species,\n  y = bill_length_mm\n) +\n# 美化\n  labs(  ## 添加标签和标题\n    x = \"Penguins Species\",\n    y = \"Bill Length\",\n    title = \"Distribution of bill length across penguins species\"\n  ) +\n  theme(\n    axis.ticks = element_blank(),\n    axis.line = element_line(colour = \"grey50\"),\n    panel.grid = element_line(color = \"#b4aea9\"),\n    panel.grid.minor = element_blank(),\n    panel.grid.major.x = element_blank(),\n    panel.grid.major.y = element_line(linetype = \"dashed\"),\n    panel.background = element_rect(fill = \"#fbf9f4\", color = \"#fbf9f4\"),\n    plot.background = element_rect(fill = \"#fbf9f4\", color = \"#fbf9f4\")\n  )\n\nplt\n\n\n\n\n\n\n\n图 10: 使用ggstatsplot包绘制小提琴图"
+  },
+  {
+    "objectID": "Distribution/ViolinPlot.html#应用场景",
+    "href": "Distribution/ViolinPlot.html#应用场景",
+    "title": "小提琴图",
+    "section": "应用场景",
+    "text": "应用场景\n\n1. 基础小提琴图\n\n\n\n\n\n\n图 11: 基础小提琴图应用\n\n\n\n图 11 e 图为七种癌症组织与对应正常组织中 circRNA 相对丰度的小提琴图 [1]。\n\n\n2. 分组小提琴图\n\n\n\n\n\n\n图 12: 分组小提琴图应用\n\n\n\n上示小提琴图分析比较了 A549 单细胞中 31 种蛋白质和 mRNA 的水平和分布 [2]。\n\n\n3. 半分小提琴图\n\n\n\n\n\n\n图 13: 半分小提琴图应用\n\n\n\n图 13 E 图利用半分小提琴图分析 WT 克隆在 WT 肠道（左）或 M−/+ 肠道（中图和右图）中的克隆大小分布 [3]。\n\n\n4. 箱线小提琴图\n\n\n\n\n\n\n图 14: 箱线小提琴图应用\n\n\n\n图 14 D 图展示附着在基质上 (noise) 和水中 (stimulation ) 的液滴的预期中值 MSD 和分布，以及纳米级的 RMS 位移 [4]."
+  },
+  {
+    "objectID": "Distribution/ViolinPlot.html#参考文献",
+    "href": "Distribution/ViolinPlot.html#参考文献",
+    "title": "小提琴图",
+    "section": "参考文献",
+    "text": "参考文献\n[1] Zheng Q, Bao C, Guo W, Li S, Chen J, Chen B, Luo Y, Lyu D, Li Y, Shi G, Liang L, Gu J, He X, Huang S. Circular RNA profiling reveals an abundant circHIPK3 that regulates cell growth by sponging multiple miRNAs. Nat Commun. 2016 Apr 6;7:11215. doi: 10.1038/ncomms11215. PMID: 27050392; PMCID: PMC4823868.\n[2] Gong H, Wang X, Liu B, Boutet S, Holcomb I, Dakshinamoorthy G, Ooi A, Sanada C, Sun G, Ramakrishnan R. Single-cell protein-mRNA correlation analysis enabled by multiplexed dual-analyte co-detection. Sci Rep. 2017 Jun 5;7(1):2776. doi: 10.1038/s41598-017-03057-5. PMID: 28584233; PMCID: PMC5459813.\n[3] Kolahgar G, Suijkerbuijk SJ, Kucinski I, Poirier EZ, Mansour S, Simons BD, Piddini E. Cell Competition Modifies Adult Stem Cell and Tissue Population Dynamics in a JAK-STAT-Dependent Manner. Dev Cell. 2015 Aug 10;34(3):297-309. doi: 10.1016/j.devcel.2015.06.010. Epub 2015 Jul 23. PMID: 26212135; PMCID: PMC4537514.\n[4] Cribb JA, Osborne LD, Beicker K, Psioda M, Chen J, O’Brien ET, Taylor Ii RM, Vicci L, Hsiao JP, Shao C, Falvo M, Ibrahim JG, Wood KC, Blobe GC, Superfine R. An Automated High-throughput Array Microscope for Cancer Cell Mechanics. Sci Rep. 2016 Jun 6;6:27371. doi: 10.1038/srep27371. PMID: 27265611; PMCID: PMC4893602.\n[5] Wickham H, Vaughan D, Girlich M (2024). tidyr: Tidy Messy Data. R package version 1.3.1, https://CRAN.R-project.org/package=tidyr.\n[6] H. Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York, 2016.\n[7] Wickham H, François R, Henry L, Müller K, Vaughan D (2023). dplyr: A Grammar of Data Manipulation. R package version 1.1.4, https://CRAN.R-project.org/package=dplyr.\n[8] Tiedemann F (2022). gghalves: Compose Half-Half Plots Using Your Favourite Geoms. R package version 0.1.4, https://CRAN.R-project.org/package=gghalves.\n[9] Wickham H (2023). forcats: Tools for Working with Categorical Variables (Factors). R package version 1.0.0, https://CRAN.R-project.org/package=forcats.\n[10] Rudis B (2024). hrbrthemes: Additional Themes, Theme Components and Utilities for ‘ggplot2’. R package version 0.8.7, https://CRAN.R-project.org/package=hrbrthemes.\n[11] Simon Garnier, Noam Ross, Robert Rudis, Antônio P. Camargo, Marco Sciaini, and Cédric Scherer (2024). viridis(Lite) - Colorblind-Friendly Color Maps for R. viridis package version 0.6.5.\n[12] Patil, I. (2021). Visualizations with statistical details: The ‘ggstatsplot’ approach. Journal of Open Source Software, 6(61), 3167, doi:10.21105/joss.03167\n[13] Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. R package version 0.1.0. https://allisonhorst.github.io/palmerpenguins/. doi: 10.5281/zenodo.3960218."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]
